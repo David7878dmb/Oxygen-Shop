@@ -56,6 +56,87 @@
   color: white;
 }
 
+.sales h2 {
+  width: 303px;
+  height: 112px;
+  margin-top: 290px;
+  margin-left: 36px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 35px;
+  text-align: center;
+}
+
+.daily {
+  width: 117px;
+  height: 140px;
+  margin-top: 20px;
+  margin-left: 129px;
+  gap: 0px;
+  opacity: 0px;
+}
+.daily .daily_circle {
+  width: 62.71px;
+  height: 62.71px;
+  margin-left: 21.73px;
+  gap: 0px;
+  opacity: 0px;
+  background: #FB3B64;
+  border-radius: 50%;
+}
+.daily .daily_person {
+  width: 44px;
+  height: 52px;
+  top: 3px;
+  left: 52px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #FB3B64;
+}
+.daily .daily_person ._person1 {
+  border: 1px;
+  width: 22px;
+  height: 28px;
+  top: 0px;
+  left: 11px;
+  gap: 0px;
+  opacity: 0px;
+  color: black;
+  background-color: aqua;
+  position: absolute;
+}
+.daily h3 {
+  width: 117px;
+  height: 24px;
+  top: 76.89px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 5.9600000381px;
+  text-align: center;
+}
+.daily p {
+  width: 95px;
+  height: 20px;
+  margin-top: 12px;
+  margin-left: 11.15px;
+  gap: 0px;
+  opacity: 0px;
+  text-align: center;
+  font-family: "Raleway";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color: #A5A5A5;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
