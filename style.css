@@ -1,16 +1,13 @@
 .sell {
-  width: 310px;
-  height: 213px;
-  margin-top: 1.0625rem;
+  margin-top: 60px;
   margin-left: 2.0625rem;
   margin-right: 2.0625rem;
-  gap: 0px;
-  opacity: 0px;
 }
 .sell h2 {
   width: 10.125rem;
   height: 2.5625rem;
   margin-left: 4.5994rem;
+  margin-bottom: 20px;
   font-family: Raleway;
   font-size: 2.1875rem;
   font-weight: 400;
@@ -19,10 +16,8 @@
   color: black;
 }
 .sell p {
-  width: 19.25rem;
-  height: 3.5625rem;
-  top: 3.8125rem;
   margin-left: 0.0975rem;
+  margin-bottom: 30px;
   font-family: "Open Sans";
   font-size: 1rem;
   font-weight: 400;
@@ -34,20 +29,14 @@
   width: 19.375rem;
   height: 4.1875rem;
   top: 9.125rem;
-  gap: 0px;
-  opacity: 0px;
   border-radius: 2.5rem;
   background: #08A6E4;
   box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
   border: none;
+  margin-bottom: 20px;
 }
 .sell button p {
-  width: 7.9375rem;
-  height: 1.375rem;
-  top: 1.375rem;
-  margin-left: 5.75rem;
-  gap: 0px;
-  opacity: 0px;
+  margin-top: 20px;
   font-family: "Open Sans";
   font-size: 1rem;
   font-weight: 700;
@@ -57,12 +46,8 @@
 }
 
 .sales h2 {
-  width: 303px;
-  height: 112px;
-  margin-top: 290px;
-  margin-left: 36px;
-  gap: 0px;
-  opacity: 0px;
+  margin-top: 10%;
+  margin-left: 10%;
   font-family: Raleway;
   font-size: 30px;
   font-weight: 300;
@@ -71,181 +56,188 @@
 }
 
 .daily {
-  width: 117px;
-  height: 140px;
-  margin-top: 20px;
-  margin-left: 129px;
-  gap: 0px;
-  opacity: 0px;
+  margin-top: 1.25rem;
+  margin-left: 8.0625rem;
 }
 .daily .daily_circle {
-  width: 62.71px;
-  height: 62.71px;
-  margin-left: 26px;
-  gap: 0px;
-  opacity: 0px;
+  width: 3.9194rem;
+  height: 3.9194rem;
+  margin-left: 1.625rem;
   background: #FB3B64;
   border-radius: 50%;
 }
 .daily .daily_circle .daily_circle_person {
-  width: 44px;
-  height: 52px;
   top: 3px;
-  margin-left: 10px;
-  gap: 0px;
-  opacity: 0px;
+  margin-left: 0.625rem;
 }
-.daily .daily_circle .daily_circle_person ._person1 {
-  width: 22px;
-  height: 28px;
-  top: 0px;
-  margin-left: 30px;
-  gap: 0px;
-  opacity: 0px;
-}
-.daily .daily_circle .daily_circle_person ._person2 {
-  width: 44px;
-  height: 28px;
-  top: 2px;
-  margin-left: 20px;
-  gap: 0px;
-  opacity: 0px;
+.daily .daily_circle .daily_circle_person ._person {
+  margin-left: 1.25rem;
 }
 .daily h3 {
-  width: 117px;
-  height: 24px;
-  margin-top: 12px;
-  gap: 0px;
-  opacity: 0px;
+  margin-top: 0.75rem;
   font-family: "Raleway";
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 800;
-  line-height: 24px;
-  letter-spacing: 5.9600000381px;
-  text-align: center;
+  line-height: 1.5rem;
+  letter-spacing: 0.3725rem;
+  text-align: left;
 }
 .daily p {
-  width: 95px;
-  height: 20px;
   margin-top: 12px;
-  margin-left: 11.15px;
-  gap: 0px;
-  opacity: 0px;
-  text-align: center;
+  text-align: left;
+  margin-bottom: 20px;
   font-family: "Raleway";
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
-  text-align: center;
   color: #A5A5A5;
 }
 
 .eyes {
-  width: 11rem;
-  height: 10.4375rem;
-  top: 63.5rem;
   margin-left: 6.25rem;
-  gap: 0rem;
-  opacity: 0rem;
 }
 .eyes .eye_circle {
   width: 3.9375rem;
   height: 3.9375rem;
   margin-left: 3.5625rem;
-  gap: 0rem;
-  opacity: 0rem;
   border-radius: 50%;
   background: #08A6E4;
 }
-.eyes .eye_circle .eye_circle_eye {
-  width: 65.43px;
-  height: 36.5px;
-  top: 12.25px;
-  left: 77.78px;
-  padding: 1.75px 2.22px 1.75px 2.22px;
-  gap: 0px;
-  opacity: 0px;
-}
 .eyes .eye_circle .eye_circle_eye ._eye {
-  width: 65.43px;
-  height: 36.5px;
   margin-top: 12.25px;
   margin-left: 20px;
-  padding: 1.75px 2.22px 1.75px 2.22px;
-  gap: 0px;
-  opacity: 0px;
 }
 .eyes h3 {
-  width: 136px;
-  height: 24px;
   margin-top: 12px;
   margin-left: 20px;
-  gap: 0px;
-  opacity: 0px;
   font-family: Raleway;
   font-size: 20px;
   font-weight: 800;
-  line-height: 24px;
   letter-spacing: 5.96px;
-  text-align: center;
+  text-align: left;
 }
 .eyes p {
-  width: 176px;
-  height: 48px;
   margin-top: 12px;
-  gap: 0px;
-  opacity: 0px;
   font-family: Raleway;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
-  text-align: center;
+  text-align: left;
   color: #A5A5A5;
+  margin-bottom: 20px;
 }
 
 .post {
-  width: 163px;
-  height: 168px;
-  top: 1208px;
+  width: 100%;
   margin-left: 106px;
-  gap: 0px;
-  opacity: 0px;
 }
 .post .post_circle {
   width: 62.71px;
   height: 62.71px;
   margin-left: 50.66px;
-  gap: 0px;
-  opacity: 0px;
   border-radius: 50%;
   background: #55DFB4;
 }
+.post .post_circle ._post {
+  margin-top: 5px;
+  margin-left: 30px;
+}
 .post h3 {
-  width: 98px;
-  height: 24px;
   margin-top: 12px;
-  margin-left: 32.17px;
-  gap: 0px;
-  opacity: 0px;
   font-family: Raleway;
   font-size: 20px;
   font-weight: 800;
   line-height: 24px;
   letter-spacing: 5.9600000381px;
-  text-align: center;
 }
 .post p {
-  width: 163px;
-  height: 48px;
   margin-top: 12px;
-  gap: 0px;
-  opacity: 0px;
   font-family: Raleway;
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
-  text-align: center;
+  text-align: left;
   color: #A5A5A5;
+}
+
+.mid {
+  margin-top: 40px;
+  background-color: #F7F7F7;
+  display: block;
+}
+.mid_first {
+  background-color: white;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+  display: block;
+}
+.mid_first_img {
+  margin-top: 10px;
+}
+.mid_first_img ._laptop {
+  position: relative;
+  margin-left: 19%;
+  margin-top: 7%;
+}
+.mid_first_img ._circle {
+  position: absolute;
+  margin-left: 43%;
+}
+.mid_first h3 {
+  margin-top: 5%;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35.22px;
+  text-align: left;
+  margin-left: 5%;
+}
+.mid_first p {
+  margin-top: 10%;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  margin-left: 5%;
+}
+.mid_shop {
+  background-color: white;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10px;
+  display: block;
+}
+.mid_shop_img {
+  margin-top: 10%;
+}
+.mid_shop_img ._phone {
+  position: relative;
+  margin-left: 26%;
+  margin-top: 2%;
+}
+.mid_shop_img ._circleblue {
+  position: absolute;
+  margin-left: 21%;
+}
+.mid_shop h3 {
+  margin-top: 5%;
+  font-family: Raleway;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35.22px;
+  text-align: left;
+  margin-left: 5%;
+}
+.mid_shop p {
+  margin-top: 10%;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  margin-left: 5%;
 }
 
 * {
@@ -258,10 +250,6 @@ body {
   min-width: 320px;
 }
 
-.header {
-  width: 23.4375rem;
-  height: 4.375rem;
-}
 .header h1 {
   font-family: Raleway;
   font-size: 2rem;
@@ -269,31 +257,20 @@ body {
   line-height: 2.3125rem;
   text-align: left;
   color: #08A6E4;
-  width: 12.875rem;
-  height: 2.3125rem;
   margin-top: 1.0625rem;
   margin-left: 1.5625rem;
-  gap: 0px;
-  opacity: 0px;
 }
 
 .setup {
-  width: 48.6875rem;
   height: 16.6875rem;
-  left: -12.5938rem;
-  gap: 0px;
-  opacity: 0px;
-  align-items: center;
-  position: absolute;
   overflow: hidden;
 }
 .setup img {
-  position: absolute;
-  left: 50%;
+  height: 16.6875rem;
+  align-items: center;
   top: 50%;
   transform: translate(-50%, -50%);
-  min-width: 100%;
-  min-height: 100%;
+  scale: 50%;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,17 +1,14 @@
 .sell{
-    width: 310px;
-    height: 213px;
-    margin-top: 1.0625rem;
+    margin-top: 60px;
     margin-left: 2.0625rem;
     margin-right: 2.0625rem;
-    gap: 0px;
-    opacity: 0px;
+
 
     h2{
         width: 10.125rem;
         height: 2.5625rem;
         margin-left: 4.5994rem;
-
+        margin-bottom: 20px;
 
         font-family: Raleway;
         font-size: 2.1875rem;
@@ -22,11 +19,8 @@
     }
 
     p{
-        width: 19.25rem;
-        height: 3.5625rem;
-        top: 3.8125rem;
         margin-left: .0975rem;
-        
+        margin-bottom: 30px;
         font-family: 'Open Sans';
         font-size: 1rem;
         font-weight: 400;
@@ -40,21 +34,14 @@
         width: 19.375rem;
         height: 4.1875rem;
         top: 9.125rem;
-        gap: 0px;
-        opacity: 0px;
         border-radius: 2.5rem;
         background: #08A6E4;
         box-shadow: 5px 10px 14px 0px #07ACE64A;
         border:none;
 
+        margin-bottom: 20px;
         p{
-            width: 7.9375rem;
-            height: 1.375rem;
-            top: 1.375rem;
-            margin-left: 5.75rem;
-            gap: 0px;
-            opacity: 0px;
-
+            margin-top: 20px;
             font-family: 'Open Sans';
             font-size: 1rem;
             font-weight: 700;
@@ -63,7 +50,5 @@
             color: white;
 
         }
-
-
     }
 }

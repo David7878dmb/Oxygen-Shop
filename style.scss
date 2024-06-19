@@ -3,6 +3,7 @@
 @use 'daily';
 @use 'eye';
 @use 'post';
+@use 'mid';
 
 * {
     box-sizing: border-box;
@@ -14,8 +15,7 @@ body {
 }
 
 .header{
-    width: 23.4375rem;
-    height: 4.375rem;
+
     
     h1 {
         font-family: Raleway;
@@ -24,31 +24,22 @@ body {
         line-height: 2.3125rem;
         text-align: left;
         color: #08A6E4;
-        width: 12.875rem;
-        height: 2.3125rem;
         margin-top: 1.0625rem;
         margin-left: 1.5625rem;
-        gap: 0px;
-        opacity: 0px;
-
     }
 }
 
 .setup{
-    width: 48.6875rem;
     height: 16.6875rem;
-    left: -12.5938rem;
-    gap: 0px;
-    opacity: 0px;
-    align-items: center;
-    position: absolute;
     overflow: hidden;
     img{
-        position: absolute;
-        left: 50%;
+        height: 16.6875rem;
+        align-items: center;
+        //left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
-        min-width: 100%;
-        min-height: 100%;
+        //min-width: 100%;
+        //min-height: 100%;
+        scale: 50%;
     }
 }

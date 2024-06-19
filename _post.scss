@@ -1,49 +1,38 @@
 .post{
-    width: 163px;
-    height: 168px;
-    top: 1208px;
+    width: 100%;
     margin-left: 106px;
-    gap: 0px;
-    opacity: 0px;
 
     .post_circle{
         width: 62.71px;
         height: 62.71px;
         margin-left: 50.66px;
-        gap: 0px;
-        opacity: 0px;
         border-radius: 50%;
         background: #55DFB4;
+
+        ._post{
+            margin-top:5px;
+            margin-left:30px;
+        }
     }
 
     h3{
-        width: 98px;
-        height: 24px;
         margin-top: 12px;
-        margin-left: 32.17px;
-        gap: 0px;
-        opacity: 0px;
 
         font-family: Raleway;
         font-size: 20px;
         font-weight: 800;
         line-height: 24px;
         letter-spacing: 5.960000038146973px;
-        text-align: center;
     }
 
     p{
-        width: 163px;
-        height: 48px;
         margin-top: 12px;
-        gap: 0px;
-        opacity: 0px;
 
         font-family: Raleway;
         font-size: 17px;
         font-weight: 400;
         line-height: 20px;
-        text-align: center;
+        text-align: left;
 
         color: #A5A5A5;
 

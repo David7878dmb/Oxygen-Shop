@@ -1,81 +1,46 @@
 
 .daily{
-    width: 117px;
-    height: 140px;
-    margin-top: 20px;
-    margin-left: 129px;
-    gap: 0px;
-    opacity: 0px;
-
+    margin-top: 1.25rem;
+    margin-left: 8.0625rem;
     .daily_circle{
-        width: 62.71px;
-        height: 62.71px;
-        margin-left: 26px;
-        gap: 0px;
-        opacity: 0px;
+        width: 3.9194rem;
+        height: 3.9194rem;
+        margin-left: 1.625rem;
         background: #FB3B64;
         border-radius: 50%;
         
 
         .daily_circle_person{
-            width: 44px;
-            height: 52px;
             top: 3px;
-            margin-left: 10px;
-            gap: 0px;
-            opacity: 0px;
-            
-            ._person1{
-                width: 22px;
-                height: 28px;
-                top: -0px;
-                margin-left: 30px;
-                gap: 0px;
-                opacity: 0px;
-            }
+            margin-left: .625rem;
 
-            ._person2{
-                width: 44px;
-                height: 28px;
-                top: 2px;
-                margin-left: 20px;
-                gap: 0px;
-                opacity: 0px;
-
-
+            ._person{
+                margin-left: 1.25rem;
             }
         }
     }
 
     h3{
-        width: 117px;
-        height: 24px;
-        margin-top: 12px;
-        gap: 0px;
-        opacity: 0px;
+
+        margin-top: .75rem;
 
         font-family: 'Raleway';
-        font-size: 20px;
+        font-size: 1.25rem;
         font-weight: 800;
-        line-height: 24px;
-        letter-spacing: 5.960000038146973px;
-        text-align: center;
+        line-height: 1.5rem;
+        letter-spacing: .3725rem;
+        text-align: left;
     }
 
     p{
-        width: 95px;
-        height: 20px;
-        margin-top: 12px;
-        margin-left: 11.15px;
-        gap: 0px;
-        opacity: 0px;
-        text-align: center;
 
+        margin-top: 12px;
+        text-align: left;
+        margin-bottom: 20px;
         font-family: 'Raleway';
         font-size: 17px;
         font-weight: 400;
         line-height: 20px;
-        text-align: center;
         color: #A5A5A5;
     }
 
