@@ -1,20 +1,41 @@
 .eyes{
-    width: 176px;
-    height: 167px;
-    top: 1016px;
-    margin-left: 100px;
-    gap: 0px;
-    opacity: 0px;
+    width: 11rem;
+    height: 10.4375rem;
+    top: 63.5rem;
+    margin-left: 6.25rem;
+    gap: 0rem;
+    opacity: 0rem;
     
 
     .eye_circle{
-        width: 63px;
-        height: 63px;
-        margin-left: 57px;
-        gap: 0px;
-        opacity: 0px;
+        width: 3.9375rem;
+        height: 3.9375rem;
+        margin-left: 3.5625rem;
+        gap: 0rem;
+        opacity: 0rem;
         border-radius: 50%;
         background: #08A6E4;
+
+        .eye_circle_eye{
+            width: 65.43px;
+            height: 36.5px;
+            top: 12.25px;
+            left: 77.78px;
+            padding: 1.75px 2.22px 1.75px 2.22px;
+            gap: 0px;
+            opacity: 0px;
+
+            ._eye{
+                width: 65.43px;
+                height: 36.5px;
+                margin-top: 12.25px;
+                margin-left: 20px;
+                padding: 1.75px 2.22px 1.75px 2.22px;
+                gap: 0px;
+                opacity: 0px;
+
+            }
+        }
     }
 
     h3{

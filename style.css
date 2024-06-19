@@ -87,26 +87,29 @@
   background: #FB3B64;
   border-radius: 50%;
 }
-.daily .daily_person {
+.daily .daily_circle .daily_circle_person {
   width: 44px;
   height: 52px;
   top: 3px;
-  left: 52px;
+  margin-left: 10px;
   gap: 0px;
   opacity: 0px;
-  background-color: #FB3B64;
 }
-.daily .daily_person ._person1 {
-  border: 1px;
+.daily .daily_circle .daily_circle_person ._person1 {
   width: 22px;
   height: 28px;
   top: 0px;
-  left: 11px;
+  margin-left: 30px;
   gap: 0px;
   opacity: 0px;
-  color: black;
-  background-color: aqua;
-  position: absolute;
+}
+.daily .daily_circle .daily_circle_person ._person2 {
+  width: 44px;
+  height: 28px;
+  top: 2px;
+  margin-left: 20px;
+  gap: 0px;
+  opacity: 0px;
 }
 .daily h3 {
   width: 117px;
@@ -138,21 +141,39 @@
 }
 
 .eyes {
-  width: 176px;
-  height: 167px;
-  top: 1016px;
-  margin-left: 100px;
+  width: 11rem;
+  height: 10.4375rem;
+  top: 63.5rem;
+  margin-left: 6.25rem;
+  gap: 0rem;
+  opacity: 0rem;
+}
+.eyes .eye_circle {
+  width: 3.9375rem;
+  height: 3.9375rem;
+  margin-left: 3.5625rem;
+  gap: 0rem;
+  opacity: 0rem;
+  border-radius: 50%;
+  background: #08A6E4;
+}
+.eyes .eye_circle .eye_circle_eye {
+  width: 65.43px;
+  height: 36.5px;
+  top: 12.25px;
+  left: 77.78px;
+  padding: 1.75px 2.22px 1.75px 2.22px;
   gap: 0px;
   opacity: 0px;
 }
-.eyes .eye_circle {
-  width: 63px;
-  height: 63px;
-  margin-left: 57px;
+.eyes .eye_circle .eye_circle_eye ._eye {
+  width: 65.43px;
+  height: 36.5px;
+  margin-top: 12.25px;
+  margin-left: 20px;
+  padding: 1.75px 2.22px 1.75px 2.22px;
   gap: 0px;
   opacity: 0px;
-  border-radius: 50%;
-  background: #08A6E4;
 }
 .eyes h3 {
   width: 136px;
