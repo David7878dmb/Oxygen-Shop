@@ -1,5 +1,6 @@
 .mid{
-    margin-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color:#F7F7F7;
     display:block;
 
@@ -7,11 +8,10 @@
         background-color: white;
         width: 80%;
         margin-left: 10%;
-        margin-top:10px;
 
         display: block;
         &_img{
-            margin-top: 10px;
+            padding-top: 15px;
             ._laptop{
                 position: relative;
                 margin-left: 19%;
@@ -43,6 +43,7 @@
             line-height: 21px;
             text-align: left;
             margin-left: 5%;
+            padding-bottom: 15px;
         }
     }
 
@@ -50,12 +51,12 @@
         background-color: white;
         width: 80%;
         margin-left: 10%;
-        margin-top:10px;
+        margin-top:30px;
 
         display: block;
 
         &_img{
-            margin-top: 10%;
+            padding-top: 15px;
             ._phone{
                 position: relative;
                 margin-left: 26%;
@@ -88,7 +89,56 @@
             line-height: 21px;
             text-align: left;
             margin-left: 5%;
+            padding-bottom: 15px;
+        }
+    }
 
+    &_brand{
+
+        background-color: white;
+        width: 80%;
+        margin-left: 10%;
+        margin-top:30px;
+
+        display: block;
+        margin-bottom: 5%;
+        h3{
+            font-family: Raleway;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 35.22px;
+            text-align: left;
+            margin-left: 5%;
+            padding-top: 5%;
+
+
+        }
+
+        p{
+            margin-top:10%;
+            font-family: Open Sans;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 21px;
+            text-align: left;
+            margin-left: 5%;
+            padding-bottom: 10px;
+        }
+    }
+
+    &_trump{
+        background-color: #55DFB4;
+        width: 314px;
+        height: 195px;
+        width: 80%;
+        margin-left: 10%;
+        border-radius: 5px;
+
+        ._trumpet{
+            padding-top: 10%;
+            padding-right: 50px;
+            width: 350px;
+            height: 250px;
         }
     }
 }

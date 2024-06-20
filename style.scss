@@ -1,9 +1,10 @@
-@use 'sell';
-@use 'sales';
-@use 'daily';
-@use 'eye';
-@use 'post';
-@use 'mid';
+@import './style/sell';
+@import './style/sales';
+@import './style/daily';
+@import './style/eye';
+@import './style/post';
+@import './style/mid';
+@import './style/pricing';
 
 * {
     box-sizing: border-box;
@@ -33,13 +34,9 @@ body {
     height: 16.6875rem;
     overflow: hidden;
     img{
-        height: 16.6875rem;
-        align-items: center;
-        //left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        //min-width: 100%;
-        //min-height: 100%;
-        scale: 50%;
+        margin: 0 0 35px 0;
+      width: 375px;
+      height: 267px;
+      object-fit: cover;
     }
 }
