@@ -4,21 +4,21 @@
     background-color:#F7F7F7;
     display:block;
 
-    &_first{
+    &__first{
         background-color: white;
         width: 80%;
         margin-left: 10%;
 
         display: block;
-        &_img{
+        &__img{
             padding-top: 15px;
-            ._laptop{
+            &__laptop{
                 position: relative;
                 margin-left: 19%;
                 margin-top:7%;
             }
 
-            ._circle{
+            &__circle{
                 position: absolute;
                 margin-left: 43%;
                 
@@ -47,7 +47,7 @@
         }
     }
 
-    &_shop{
+    &__shop{
         background-color: white;
         width: 80%;
         margin-left: 10%;
@@ -55,15 +55,15 @@
 
         display: block;
 
-        &_img{
+        &__img{
             padding-top: 15px;
-            ._phone{
+            &__phone{
                 position: relative;
                 margin-left: 26%;
                 margin-top:2%;
             }
 
-            ._circleblue{
+            &__circleblue{
                 position: absolute;
                 margin-left: 21%;
                 
@@ -93,7 +93,7 @@
         }
     }
 
-    &_brand{
+    &__brand{
 
         background-color: white;
         width: 80%;
@@ -126,7 +126,7 @@
         }
     }
 
-    &_trump{
+    &__trump{
         background-color: #55DFB4;
         width: 314px;
         height: 195px;
@@ -134,7 +134,7 @@
         margin-left: 10%;
         border-radius: 5px;
 
-        ._trumpet{
+        &__trumpet{
             padding-top: 10%;
             padding-right: 50px;
             width: 350px;

@@ -2,7 +2,7 @@
 .daily{
     margin-top: 1.25rem;
     margin-left: 8.0625rem;
-    .daily_circle{
+    &__circle{
         width: 3.9194rem;
         height: 3.9194rem;
         margin-left: 1.625rem;
@@ -10,11 +10,11 @@
         border-radius: 50%;
         
 
-        .daily_circle_person{
+        &__person{
             top: 3px;
             margin-left: .625rem;
 
-            ._person{
+            &__person{
                 margin-left: 1.25rem;
             }
         }

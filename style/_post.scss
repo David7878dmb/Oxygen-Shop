@@ -2,14 +2,14 @@
     width: 100%;
     margin-left: 106px;
 
-    .post_circle{
+    &__circle{
         width: 62.71px;
         height: 62.71px;
         margin-left: 50.66px;
         border-radius: 50%;
         background: #55DFB4;
 
-        ._post{
+        &__post{
             margin-top:5px;
             margin-left:30px;
         }

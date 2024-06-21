@@ -1,14 +1,14 @@
 .pricing{
-    &_tittle{
-        margin-top:5%;
+    &__tittle{
+        margin-top:14%;
         font-family: 'Raleway';
         font-size: 36px;
         font-weight: 400;
         line-height: 42.26px;
         text-align: center;
     }
-    &_basic{
-      
+    &__basic{
+        margin-top: 15px;
         padding-bottom: 2.5rem;
         width: 80%;
         margin-left: 10%;
@@ -18,12 +18,12 @@
         border: 1px solid #FB3B64;
         position: relative;
 
-        &_precio{
+        &__precio{
             display: inline-block;
             width: 45%;
             position: relative;
             h3{   
-                transform: translate(40%, -80%);
+                transform: translate(40%, -85%);
                 font-family: Raleway;
                 font-size: 20px;
                 font-weight: 700;
@@ -32,7 +32,7 @@
             }
 
             p{
-                transform: translate(40%, 0%);
+                transform: translate(40%, -30%);
                 font-family: 'Open Sans';
                 font-size: 46px;
                 font-weight: 300;
@@ -42,7 +42,7 @@
             }
         }
 
-        &_check{
+        &__check{
             
             width: 45%;
             display: inline-block;
@@ -57,10 +57,9 @@
             }
         }
         
-        &_buttom{
+        &__buttom{
             transform: translate(50%, 100%);
-            width: 150px;
-            height: 50px;
+            padding: 5% 20%;
             border-radius: 23px;
             background-color: #EB476E;
             border: 0px;
@@ -79,7 +78,7 @@
     }
 
 
-    &_pro{
+    &__pro{
         margin-top: 60px;
         padding-bottom: 2.5rem;
         width: 80%;
@@ -90,7 +89,7 @@
         border: 1px solid #07ACE6;
         position: relative;
 
-        &_precio{
+        &__precio{
             display: inline-block;
             width: 45%;
             position: relative;
@@ -104,7 +103,7 @@
 
             }
 
-            &_dollar{
+            &__dollar{
                 transform: translate(25%, -30%);
                 font-family: 'Open Sans';
                 font-size: 46px;
@@ -113,7 +112,7 @@
                 color: #07ACE6;
             }
 
-            &_offer{
+            &__offer{
                 font-family: Raleway;
                 font-size: 12px;
                 font-weight: 700;
@@ -124,7 +123,7 @@
             }
         }
 
-        &_check{
+        &__check{
             margin-left: 15px;
             width: 45%;
             display: inline-block;
@@ -143,10 +142,9 @@
             }
         }
 
-        &_buttom{
+        &__buttom{
             transform: translate(50%, 100%);
-            width: 150px;
-            height: 50px;
+            padding: 5% 20%;
             border-radius: 23px;
             background-color: #07ACE6;
             border: 0px;
@@ -165,7 +163,7 @@
     }
 
 
-    &_premium{
+    &__premium{
         margin-top: 60px;
         padding-bottom: 2.5rem;
         width: 80%;
@@ -176,7 +174,7 @@
         border: 1px solid #55DFB4;
         position: relative;
 
-        &_precio{
+        &__precio{
             display: inline-block;
             width: 45%;
             position: relative;
@@ -190,7 +188,7 @@
 
             }
 
-            &_dollar{
+            &__dollar{
                 transform: translate(25%, -30%);
                 font-family: 'Open Sans';
                 font-size: 46px;
@@ -199,7 +197,7 @@
                 color: #55DFB4;
             }
 
-            &_offer{
+            &__offer{
                 font-family: Raleway;
                 font-size: 12px;
                 font-weight: 700;
@@ -209,7 +207,7 @@
             }
         }
 
-        &_check{
+        &__check{
             margin-left: 15px;
             width: 45%;
             display: inline-block;
@@ -226,10 +224,9 @@
                 margin-right: 5px;
             }
         }
-        &_buttom{
+        &__buttom{
             transform: translate(50%, 100%);
-            width: 150px;
-            height: 50px;
+            padding: 5% 20%;
             border-radius: 23px;
             background-color: #55DFB4;
             border: 0px;

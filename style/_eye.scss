@@ -1,15 +1,15 @@
 .eyes{ 
     margin-left: 6.25rem;
 
-    .eye_circle{
+    &__circle{
         width: 3.9375rem;
         height: 3.9375rem;
         margin-left: 3.5625rem;
         border-radius: 50%;
         background: #08A6E4;
 
-        .eye_circle_eye{
-            ._eye{
+        &__eye{
+            &__img{
                 margin-top: 12.25px;
                 margin-left: 20px;
             }
