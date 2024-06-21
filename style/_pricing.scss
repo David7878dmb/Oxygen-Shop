@@ -33,7 +33,7 @@
 
             p{
                 transform: translate(40%, 0%);
-                font-family: Open Sans;
+                font-family: 'Open Sans';
                 font-size: 46px;
                 font-weight: 300;
                 line-height: 64px;
@@ -66,7 +66,7 @@
             border: 0px;
         
 
-            font-family: Open Sans;
+            font-family: 'Open Sans';
             font-size: 13px;
             font-weight: 700;
             line-height: 17.7px;
@@ -77,4 +77,175 @@
         }
 
     }
+
+
+    &_pro{
+        margin-top: 60px;
+        padding-bottom: 2.5rem;
+        width: 80%;
+        margin-left: 10%;
+        width: 293px;
+        height: 275px;  
+        border-radius: 15px;
+        border: 1px solid #07ACE6;
+        position: relative;
+
+        &_precio{
+            display: inline-block;
+            width: 45%;
+            position: relative;
+
+            h3{
+                transform: translate(15%, -60%);
+                font-family: Raleway;
+                font-size: 19px;
+                font-weight: 700;
+                line-height: 24px;
+
+            }
+
+            &_dollar{
+                transform: translate(25%, -30%);
+                font-family: 'Open Sans';
+                font-size: 46px;
+                font-weight: 300;
+                line-height: 64px;
+                color: #07ACE6;
+            }
+
+            &_offer{
+                font-family: Raleway;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 14.09px;
+                color: #13253B;
+                transform: translate(27%, -100%);
+
+            }
+        }
+
+        &_check{
+            margin-left: 15px;
+            width: 45%;
+            display: inline-block;
+            li{
+                transform: translate(0%, 80%);
+                line-height: 40px;
+                list-style: none;
+                font-family: 'Open Sans';
+                font-size: 14px;
+                font-weight: 400;
+
+            }
+
+            img{
+                margin-right: 5px;
+            }
+        }
+
+        &_buttom{
+            transform: translate(50%, 100%);
+            width: 150px;
+            height: 50px;
+            border-radius: 23px;
+            background-color: #07ACE6;
+            border: 0px;
+        
+
+            font-family: 'Open Sans';
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 17.7px;
+            text-align: left;
+            color: white;
+            text-align: center;
+
+        }
+
+    }
+
+
+    &_premium{
+        margin-top: 60px;
+        padding-bottom: 2.5rem;
+        width: 80%;
+        margin-left: 10%;
+        width: 293px;
+        height: 275px;  
+        border-radius: 15px;
+        border: 1px solid #55DFB4;
+        position: relative;
+
+        &_precio{
+            display: inline-block;
+            width: 45%;
+            position: relative;
+
+            h3{
+                transform: translate(25%, -60%);
+                font-family: Raleway;
+                font-size: 19px;
+                font-weight: 700;
+                line-height: 24px;
+
+            }
+
+            &_dollar{
+                transform: translate(25%, -30%);
+                font-family: 'Open Sans';
+                font-size: 46px;
+                font-weight: 300;
+                line-height: 64px;
+                color: #55DFB4;
+            }
+
+            &_offer{
+                font-family: Raleway;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 14.09px;
+                color: #13253B;
+                transform: translate(27%, -100%);
+            }
+        }
+
+        &_check{
+            margin-left: 15px;
+            width: 45%;
+            display: inline-block;
+            li{
+                transform: translate(0%, 80%);
+                line-height: 40px;
+                list-style: none;
+                font-family: 'Open Sans';
+                font-size: 14px;
+                font-weight: 400;
+
+            }
+            img{
+                margin-right: 5px;
+            }
+        }
+        &_buttom{
+            transform: translate(50%, 100%);
+            width: 150px;
+            height: 50px;
+            border-radius: 23px;
+            background-color: #55DFB4;
+            border: 0px;
+        
+
+            font-family: 'Open Sans';
+            font-size: 13px;
+            font-weight: 700;
+            line-height: 17.7px;
+            text-align: left;
+            color: white;
+            text-align: center;
+
+        }
+    }
 }
+        //Pa el hover
+        //box-shadow: #07ACE6;
+        //transform: scale();
