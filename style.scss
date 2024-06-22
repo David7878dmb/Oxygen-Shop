@@ -5,6 +5,10 @@
 @import './style/post';
 @import './style/mid';
 @import './style/pricing';
+@import './style/question';
+@import './style/footer';
+@import './style/header';
+
 
 * {
     box-sizing: border-box;
@@ -15,28 +19,3 @@ body {
    min-width: 320px;
 }
 
-.header{
-
-    
-    h1 {
-        font-family: Raleway;
-        font-size: 2rem;
-        font-weight: 300;
-        line-height: 2.3125rem;
-        text-align: left;
-        color: #08A6E4;
-        margin-top: 1.0625rem;
-        margin-left: 1.5625rem;
-    }
-}
-
-.setup{
-    height: 16.6875rem;
-    overflow: hidden;
-    img{
-        margin: 0 0 35px 0;
-      width: 375px;
-      height: 267px;
-      object-fit: cover;
-    }
-}
