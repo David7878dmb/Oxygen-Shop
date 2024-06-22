@@ -21,7 +21,6 @@
         &__precio{
             display: inline-block;
             width: 45%;
-            position: relative;
             h3{   
                 transform: translate(40%, -85%);
                 font-family: Raleway;
@@ -92,8 +91,6 @@
         &__precio{
             display: inline-block;
             width: 45%;
-            position: relative;
-
             h3{
                 transform: translate(15%, -20%);
                 font-family: Raleway;
@@ -241,6 +238,21 @@
             text-align: center;
 
         }
+
+    }
+    &__premium:hover{
+        transform: scale(110%);
+        box-shadow: 0 4px 6px #55DFB4;
+    }
+    
+    &__pro:hover{
+        transform: scale(110%);
+        box-shadow: 0 4px 6px #07ACE6;
+    }
+
+    &__basic:hover{
+        transform: scale(110%);
+        box-shadow: 0 4px 6px #FB3B64;
     }
 }
         //Pa el hover

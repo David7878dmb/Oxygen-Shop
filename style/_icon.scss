@@ -1,0 +1,182 @@
+.icon{
+    &__daily{
+        margin-top: 1.25rem;
+        margin-left: 8.0625rem;
+        &__circle{
+            width: 3.9194rem;
+            height: 3.9194rem;
+            margin-left: 1.625rem;
+            background: #FB3B64;
+            border-radius: 50%;
+            
+
+            &__person{
+                top: 3px;
+                margin-left: .625rem;
+
+                &__person{
+                    margin-left: 1.25rem;
+                }
+            }
+        }
+
+        h3{
+
+            margin-top: .75rem;
+
+            font-family: 'Raleway';
+            font-size: 1.25rem;
+            font-weight: 800;
+            line-height: 1.5rem;
+            letter-spacing: .3725rem;
+            text-align: left;
+        }
+
+        p{
+            margin-left: 10px;
+            margin-top: 12px;
+            text-align: left;
+            margin-bottom: 20px;
+            font-family: 'Raleway';
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 20px;
+            color: #A5A5A5;
+        }
+
+    }
+
+
+    &__eyes{ 
+        margin-left: 6.25rem;
+
+        &__circle{
+            width: 3.9375rem;
+            height: 3.9375rem;
+            margin-left: 3.5625rem;
+            border-radius: 50%;
+            background: #08A6E4;
+
+            &__eye{
+                &__img{
+                    margin-top: 12.25px;
+                    margin-left: 20px;
+                }
+            }
+        }
+
+        h3{
+            margin-top: 12px;
+            margin-left: 20px;
+            font-family: Raleway;
+            font-size: 20px;
+            font-weight: 800;
+            letter-spacing: 5.96px;
+            text-align: left;
+        
+        }
+
+        p{
+            width: 50%;
+            margin-top: 20px;
+            margin-left: 15px;
+            font-family: Raleway;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 19px;
+            text-align: center;
+            color: #A5A5A5;
+            margin-bottom: 20px;
+        }
+    }
+
+
+    &__post{
+
+        margin-left: 106px;
+
+        &__circle{
+            width: 62.71px;
+            height: 62.71px;
+            margin-left: 50.66px;
+            border-radius: 50%;
+            background: #55DFB4;
+
+            &__post{
+                margin-top:5px;
+                margin-left:30px;
+            }
+        }
+
+        h3{
+            margin-left: 30px;
+            margin-top: 12px;
+            text-align: left;
+            font-family: Raleway;
+            font-size: 20px;
+            font-weight: 800;
+            line-height: 24px;
+            letter-spacing: 5.960000038146973px;
+        }
+
+        p{
+            margin-left: 25px;
+            width: 40%;
+            margin-top: 12px;
+            margin-bottom: 40px;
+            font-family: Raleway;
+            font-size: 17px;
+            font-weight: 400;
+            line-height: 20px;
+            text-align: center;
+
+            color: #A5A5A5;
+
+        }
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .icon{
+        display: inline-block;
+        margin-left: 20%;
+        margin-bottom: 40px;
+        &__daily{
+            display: inline-block;
+            transform: translate(0%,0%);
+        }
+        &__eyes{
+            display: inline-block;
+            transform: translate(0%,14%);
+            p{
+                width: 60%;
+                margin-top: 20px;
+                margin-left: 25px;
+                font-family: Raleway;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 19px;
+                text-align: center;
+                color: #A5A5A5;
+                margin-bottom: 20px;
+            }
+        }
+        &__post{
+            display: inline-block;
+            transform: translate(0%,11%);
+            p{
+                margin-left: 25px;
+                width: 60%;
+                margin-top: 12px;
+                margin-bottom: 40px;
+                font-family: Raleway;
+                font-size: 17px;
+                font-weight: 400;
+                line-height: 20px;
+                text-align: center;
+                color: #A5A5A5;
+    
+            }
+        }
+    }
+}
