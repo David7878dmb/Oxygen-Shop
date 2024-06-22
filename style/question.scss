@@ -84,6 +84,7 @@
     }
 
     &__form{
+        margin-left: 1%;
         margin-top: 40px;
         &__ne{
             font-family: 'Open Sans';
@@ -139,7 +140,7 @@
         }
 
         &__button{
-            transform: translate(40%, 0%);
+            transform: translate(50%, 0%);
             margin-top: 20px;
             padding: 5% 25%;
             border-radius: 40px;

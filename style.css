@@ -1,5 +1,5 @@
 .sell {
-  margin-top: 60px;
+  margin-top: 80px;
   margin-left: 2.0625rem;
   margin-right: 2.0625rem;
 }
@@ -45,9 +45,22 @@
   color: white;
 }
 
+.setup {
+  margin-top: 20px;
+  height: 16.6875rem;
+  overflow: hidden;
+}
+.setup img {
+  margin: 0 0 35px 0;
+  width: 375px;
+  height: 267px;
+  object-fit: cover;
+}
+
 .sales h2 {
+  width: 70%;
   margin-top: 10%;
-  margin-left: 10%;
+  margin-left: 15%;
   font-family: Raleway;
   font-size: 30px;
   font-weight: 300;
@@ -83,6 +96,7 @@
   text-align: left;
 }
 .daily p {
+  margin-left: 10px;
   margin-top: 12px;
   text-align: left;
   margin-bottom: 20px;
@@ -117,18 +131,19 @@
   text-align: left;
 }
 .eyes p {
-  margin-top: 12px;
+  width: 50%;
+  margin-top: 20px;
+  margin-left: 15px;
   font-family: Raleway;
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
-  text-align: left;
+  text-align: center;
   color: #A5A5A5;
   margin-bottom: 20px;
 }
 
 .post {
-  width: 100%;
   margin-left: 106px;
 }
 .post__circle {
@@ -143,7 +158,9 @@
   margin-left: 30px;
 }
 .post h3 {
+  margin-left: 30px;
   margin-top: 12px;
+  text-align: left;
   font-family: Raleway;
   font-size: 20px;
   font-weight: 800;
@@ -151,13 +168,15 @@
   letter-spacing: 5.9600000381px;
 }
 .post p {
+  margin-left: 25px;
+  width: 40%;
   margin-top: 12px;
   margin-bottom: 40px;
   font-family: Raleway;
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;
-  text-align: left;
+  text-align: center;
   color: #A5A5A5;
 }
 
@@ -248,7 +267,6 @@
   margin-left: 10%;
   margin-top: 30px;
   display: block;
-  margin-bottom: 5%;
 }
 .mid__brand h3 {
   font-family: Raleway;
@@ -366,14 +384,14 @@
   position: relative;
 }
 .pricing__pro__precio h3 {
-  transform: translate(15%, -60%);
+  transform: translate(15%, -20%);
   font-family: Raleway;
   font-size: 19px;
   font-weight: 700;
   line-height: 24px;
 }
 .pricing__pro__precio__dollar {
-  transform: translate(25%, -30%);
+  transform: translate(25%, 0%);
   font-family: "Open Sans";
   font-size: 46px;
   font-weight: 300;
@@ -386,7 +404,7 @@
   font-weight: 700;
   line-height: 14.09px;
   color: #13253B;
-  transform: translate(27%, -100%);
+  transform: translate(27%, 5%);
 }
 .pricing__pro__check {
   margin-left: 15px;
@@ -435,14 +453,14 @@
   position: relative;
 }
 .pricing__premium__precio h3 {
-  transform: translate(25%, -60%);
+  transform: translate(25%, -5%);
   font-family: Raleway;
   font-size: 19px;
   font-weight: 700;
   line-height: 24px;
 }
 .pricing__premium__precio__dollar {
-  transform: translate(25%, -30%);
+  transform: translate(25%, 0%);
   font-family: "Open Sans";
   font-size: 46px;
   font-weight: 300;
@@ -455,7 +473,7 @@
   font-weight: 700;
   line-height: 14.09px;
   color: #13253B;
-  transform: translate(27%, -100%);
+  transform: translate(27%, 5%);
 }
 .pricing__premium__check {
   margin-left: 15px;
@@ -561,6 +579,7 @@
   text-decoration: none;
 }
 .question__form {
+  margin-left: 1%;
   margin-top: 40px;
 }
 .question__form__ne {
@@ -610,7 +629,7 @@
   color: #707070;
 }
 .question__form__button {
-  transform: translate(40%, 0%);
+  transform: translate(50%, 0%);
   margin-top: 20px;
   padding: 5% 25%;
   border-radius: 40px;
@@ -632,6 +651,7 @@
   box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
 }
 .footer__text {
+  margin-top: 20px;
   position: relative;
   display: inline-block;
   width: 60%;
@@ -663,17 +683,11 @@
   margin-right: 25px;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.header {
+  box-shadow: 0 7px 6px rgba(0, 0, 0, 0.1);
 }
-
-body {
-  min-width: 320px;
-}
-
 .header h1 {
+  display: inline-block;
   font-family: Raleway;
   font-size: 2rem;
   font-weight: 300;
@@ -682,17 +696,22 @@ body {
   color: #08A6E4;
   margin-top: 1.0625rem;
   margin-left: 1.5625rem;
+  padding-bottom: 10px;
+}
+.header img {
+  padding-left: 90px;
+  display: inline;
+  text-align: right;
 }
 
-.setup {
-  height: 16.6875rem;
-  overflow: hidden;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-.setup img {
-  margin: 0 0 35px 0;
-  width: 375px;
-  height: 267px;
-  object-fit: cover;
+
+body {
+  min-width: 320px;
 }
 
 /*# sourceMappingURL=style.css.map */
