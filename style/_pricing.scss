@@ -42,7 +42,7 @@
         }
 
         &__check{
-            
+            text-align: center;
             width: 45%;
             display: inline-block;
             li{
@@ -258,3 +258,148 @@
         //Pa el hover
         //box-shadow: #07ACE6;
         //transform: scale();
+
+@media (min-width:1000px){
+    .pricing{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        &__tittle{
+            width: 100%;
+            margin-top: 80px;
+            margin-bottom: 40px;
+        }
+
+        &__basic{
+            margin-top:20px;
+            display: flex;
+            flex-flow: column nowrap;
+            margin-left: 0%;
+            height: 485px; 
+            width: 372px;
+            &__precio{
+                width: 100%;
+                h3{
+                    margin-top: 20px;
+                    transform: translate(0%,0%);
+                    text-align: center;    
+                }
+                p{
+                    margin-top: 15px;
+                    transform: translate(0%,0%);
+                    text-align: center;    
+                    margin-bottom: 50px;
+                }
+            }
+
+            &__check{
+                width: 100%;
+
+                li{
+                    transform: translate(0%,0%);
+                }
+            }
+
+            &__buttom{
+                transform: translate(60%,150%);
+                padding: 5%;
+                width: 45%;
+                text-align: center;
+            }
+        }
+
+        &__pro{
+            margin-top:20px;
+            margin-left: 0%;
+            height: 485px; 
+            width: 372px;
+            display: flex;
+            flex-flow: column nowrap;
+            &__precio{
+                width: 100%;
+                h3{
+                    margin-top: 20px;
+                    transform: translate(0%,0%);
+                    text-align: center;    
+                }
+                &__dollar{
+                    margin-top: 15px;
+                    transform: translate(0%,0%);
+                    text-align: center;    
+                    margin-bottom: 5px;
+                }
+
+                &__offer{
+                    margin-top: 0px;
+                    transform: translate(0%,0%);
+                    text-align: center;    
+                    margin-bottom: 50px;
+              }
+            }   
+
+            &__check{
+                width: 100%;
+                text-align: center;
+                margin-left: 0px;
+                li{
+                    transform: translate(0%,0%);
+                }
+            }
+
+            &__buttom{
+                transform: translate(65%,120%);
+                padding: 5%;
+                width: 45%;
+                text-align: center;
+            }
+        }
+
+        &__premium{
+            margin-left: 0%;
+            margin-top:20px;
+            height: 485px; 
+            width: 372px;
+            display: flex;
+            flex-flow: column nowrap;
+            &__precio{
+                width: 100%;
+                h3{
+                    margin-top: 20px;
+                    transform: translate(0%,0%);
+                    text-align: center;    
+                }
+                &__dollar{
+                    margin-top: 15px;
+                    transform: translate(0%,0%);
+                    text-align: center;    
+                    margin-bottom: 5px;
+                }
+
+                &__offer{
+                    margin-top: 0px;
+                    transform: translate(0%,0%);
+                    text-align: center;    
+                    margin-bottom: 50px;
+              }
+            }
+            &__check{
+                width: 100%;
+                text-align: center;
+                margin-left: 0px;
+                li{
+                    transform: translate(0%,0%);
+                }
+            }
+
+            &__buttom{
+                transform: translate(65%,120%);
+                padding: 5%;
+                width: 45%;
+                text-align: center;
+            }
+
+        }
+
+        
+    }
+}

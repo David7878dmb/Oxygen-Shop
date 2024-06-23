@@ -1,85 +1,87 @@
 .question{
     margin-top: 20%;
     margin-left: 5%;
-    h2{
-        font-family: Raleway;
-        font-size: 40px;
-        font-weight: 400;
-        line-height: 46.96px;
-    }
-    
-    &__call{
-        font-family: 'Open Sans';
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 22px;
-        text-align: left;
-    }
-
-    &__mail{
-        p{
-            font-family: 'Open Sans';
-            font-size: 16px;
-            font-weight: 600;
-            line-height: 22px;
-            text-align: left;
-            color:#A5A5A5;
-            transform: translate(10%, -130%);
-        }
-
-        img{
-            margin-top: 10%;
-        }
-    }
-
-    &__phone{
-        p{
-            font-family: 'Open Sans';
-            font-size: 16px;
-            font-weight: 600;
-            line-height: 22px;
-            text-align: left;
-            color:#A5A5A5;
-            transform: translate(10%, -130%);
-        }
-    }
-
-    &__link{ 
-        position:relative;
-        a{
-            transform: translate(10%, 10%);   
-        }
-        &__edin{
-            position:absolute;
-            font-family: 'Open Sans';
-            font-size: 16px;
-            font-weight: 600;
-            line-height: 22px;
-            text-align: left;
-            color:#A5A5A5;
-            text-decoration: none;
+    &__left{
+        h2{
+            font-family: Raleway;
+            font-size: 40px;
+            font-weight: 400;
+            line-height: 46.96px;
         }
         
-
-
-        &__edin:visited{
+        &__call{
             font-family: 'Open Sans';
             font-size: 16px;
-            font-weight: 600;
+            font-weight: 400;
             line-height: 22px;
             text-align: left;
-            color:#A5A5A5;
-            text-decoration: none;
         }
 
-        &__edin:active{ 
-            font-family: 'Open Sans';
-            font-size: 16px;
-            font-weight: 600;
-            line-height: 22px;
-            text-align: left;
-            color:#A5A5A5;
-            text-decoration: none;
+        &__mail{
+            p{
+                font-family: 'Open Sans';
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22px;
+                text-align: left;
+                color:#A5A5A5;
+                transform: translate(10%, -130%);
+            }
+
+            img{
+                margin-top: 10%;
+            }
+        }
+
+        &__phone{
+            p{
+                font-family: 'Open Sans';
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22px;
+                text-align: left;
+                color:#A5A5A5;
+                transform: translate(10%, -130%);
+            }
+        }
+
+        &__link{ 
+            position:relative;
+            a{
+                transform: translate(10%, 10%);   
+            }
+            &__edin{
+                position:absolute;
+                font-family: 'Open Sans';
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22px;
+                text-align: left;
+                color:#A5A5A5;
+                text-decoration: none;
+            }
+            
+
+
+            &__edin:visited{
+                font-family: 'Open Sans';
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22px;
+                text-align: left;
+                color:#A5A5A5;
+                text-decoration: none;
+            }
+
+            &__edin:active{ 
+                font-family: 'Open Sans';
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 22px;
+                text-align: left;
+                color:#A5A5A5;
+                text-decoration: none;
+            }
         }
     }
 
@@ -154,5 +156,50 @@
             box-shadow: 5px 10px 14px 0px #07ACE64A;
         }
     }
-
 }
+
+
+@media (min-width:1000px){
+    .question{
+        margin-top: 190px;
+        margin-left: 18%;
+        display: flex;
+        flex-flow: row wrap;
+        width:100%;
+        
+        &__left{ 
+            width: 30%;
+            display: flex;
+            flex-flow: column nowrap;
+            h2{
+                font-family: Raleway;
+                font-size: 49px;
+                font-weight: 400;
+                line-height: 46.96px;
+                text-align: left;
+            }
+            &__call{
+                margin-top: 20px;
+                margin-left: 0%;
+            }
+            
+        }
+
+        &__form{
+            margin-top: 0px;
+            width: 38%;
+            &__checkbox{
+                margin-left: 0%;
+                &__text{
+                    width: 70%;
+                }
+            }
+
+            &__button{
+                transform: translate(100%, 0%);
+                padding: 3.5%;
+                width: 40%;
+            }
+        }   
+    }   
+}   
