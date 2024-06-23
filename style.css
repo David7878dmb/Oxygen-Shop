@@ -117,7 +117,13 @@
   position: absolute;
   margin-left: 43%;
 }
-.mid__first h3 {
+.mid__first__img__laptop2 {
+  display: none;
+}
+.mid__first__img__rectangle {
+  display: none;
+}
+.mid__first__text h3 {
   margin-top: 5%;
   font-family: Raleway;
   font-size: 30px;
@@ -126,7 +132,7 @@
   text-align: left;
   margin-left: 5%;
 }
-.mid__first p {
+.mid__first__text p {
   margin-top: 10%;
   font-family: Open Sans;
   font-size: 14px;
@@ -135,6 +141,9 @@
   text-align: left;
   margin-left: 5%;
   padding-bottom: 15px;
+}
+.mid__first__text hr {
+  display: none;
 }
 .mid__shop {
   background-color: white;
@@ -155,7 +164,13 @@
   position: absolute;
   margin-left: 21%;
 }
-.mid__shop h3 {
+.mid__shop__img__phone2 {
+  display: none;
+}
+.mid__shop__img__circleblue2 {
+  display: none;
+}
+.mid__shop__text h3 {
   margin-top: 5%;
   font-family: Raleway;
   font-size: 30px;
@@ -164,7 +179,7 @@
   text-align: left;
   margin-left: 5%;
 }
-.mid__shop p {
+.mid__shop__text p {
   margin-top: 10%;
   font-family: Open Sans;
   font-size: 14px;
@@ -174,14 +189,17 @@
   margin-left: 5%;
   padding-bottom: 15px;
 }
-.mid__brand {
+.mid__shop__text hr {
+  display: none;
+}
+.mid__brand__text {
   background-color: white;
   width: 80%;
   margin-left: 10%;
   margin-top: 30px;
   display: block;
 }
-.mid__brand h3 {
+.mid__brand__text h3 {
   font-family: Raleway;
   font-size: 30px;
   font-weight: 400;
@@ -190,7 +208,7 @@
   margin-left: 5%;
   padding-top: 5%;
 }
-.mid__brand p {
+.mid__brand__text p {
   margin-top: 10%;
   font-family: Open Sans;
   font-size: 14px;
@@ -200,7 +218,10 @@
   margin-left: 5%;
   padding-bottom: 10px;
 }
-.mid__trump {
+.mid__brand__text hr {
+  display: none;
+}
+.mid__brand__trump {
   background-color: #55DFB4;
   width: 314px;
   height: 195px;
@@ -208,16 +229,133 @@
   margin-left: 10%;
   border-radius: 5px;
 }
-.mid__trump__trumpet {
+.mid__brand__trump__trumpet {
   padding-top: 10%;
   padding-right: 50px;
   width: 350px;
   height: 250px;
 }
 
-@media screen and (min-width: 1000px) {
+@media (min-width: 1000px) {
   .mid__first {
-    position: flex;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .mid__first__img {
+    order: 2;
+    transform: translate();
+  }
+  .mid__first__img__circle {
+    display: none;
+  }
+  .mid__first__img__laptop {
+    display: none;
+  }
+  .mid__first__img__laptop2 {
+    position: relative;
+    display: flex;
+    transform: translate(20%, 28%);
+  }
+  .mid__first__img__rectangle {
+    display: flex;
+    position: absolute;
+    transform: translate(125%, 5%);
+  }
+  .mid__first__text {
+    width: 45%;
+  }
+  .mid__first__text h3 {
+    order: 1;
+    padding-top: 50px;
+  }
+  .mid__first__text p {
+    order: 1;
+    width: 75%;
+  }
+  .mid__first__text hr {
+    margin-top: 15px;
+    width: 58%;
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 80px;
+    border: 2px solid red;
+  }
+  .mid__shop {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .mid__shop__img {
+    width: 45%;
+    margin-left: 5%;
+  }
+  .mid__shop__img__circleblue {
+    display: none;
+  }
+  .mid__shop__img__phone {
+    display: none;
+  }
+  .mid__shop__img__circleblue2 {
+    display: flex;
+    position: absolute;
+  }
+  .mid__shop__img__phone2 {
+    display: flex;
+    position: relative;
+    padding-bottom: 20px;
+    transform: translate(0%, 5%);
+  }
+  .mid__shop__text {
+    width: 43%;
+    margin-left: 7%;
+    margin-top: 40px;
+  }
+  .mid__shop__text h3 {
+    text-align: left;
+    width: 50%;
+  }
+  .mid__shop__text p {
+    width: 80%;
+    margin-top: 20px;
+  }
+  .mid__shop__text hr {
+    display: flex;
+    width: 60%;
+    margin-left: 5%;
+    margin-top: 20px;
+    border: 2px solid #08A6E4;
+  }
+  .mid__brand {
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .mid__brand__text {
+    width: 42%;
+  }
+  .mid__brand__text h3 {
+    margin-top: 20px;
+    width: 60%;
+  }
+  .mid__brand__text p {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+  .mid__brand__text hr {
+    display: flex;
+    margin-bottom: 55px;
+    border: 2px solid #55DFB4;
+    margin-left: 5%;
+    width: 55%;
+  }
+  .mid__brand__trump {
+    height: auto;
+    margin-top: 30px;
+    width: 33%;
+    margin-left: 5%;
+  }
+  .mid__brand__trump__trumpet {
+    width: 80%;
+    transform: translate(10%, 5%);
+    margin-top: 20px;
   }
 }
 .pricing__tittle {
@@ -259,6 +397,7 @@
   color: #FB3B64;
 }
 .pricing__basic__check {
+  text-align: center;
   width: 45%;
   display: inline-block;
 }
@@ -434,24 +573,154 @@
   box-shadow: 0 4px 6px #FB3B64;
 }
 
+@media (min-width: 1000px) {
+  .pricing {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+  }
+  .pricing__tittle {
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+  .pricing__basic {
+    margin-top: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    margin-left: 0%;
+    height: 485px;
+    width: 372px;
+  }
+  .pricing__basic__precio {
+    width: 100%;
+  }
+  .pricing__basic__precio h3 {
+    margin-top: 20px;
+    transform: translate(0%, 0%);
+    text-align: center;
+  }
+  .pricing__basic__precio p {
+    margin-top: 15px;
+    transform: translate(0%, 0%);
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .pricing__basic__check {
+    width: 100%;
+  }
+  .pricing__basic__check li {
+    transform: translate(0%, 0%);
+  }
+  .pricing__basic__buttom {
+    transform: translate(60%, 150%);
+    padding: 5%;
+    width: 45%;
+    text-align: center;
+  }
+  .pricing__pro {
+    margin-top: 20px;
+    margin-left: 0%;
+    height: 485px;
+    width: 372px;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .pricing__pro__precio {
+    width: 100%;
+  }
+  .pricing__pro__precio h3 {
+    margin-top: 20px;
+    transform: translate(0%, 0%);
+    text-align: center;
+  }
+  .pricing__pro__precio__dollar {
+    margin-top: 15px;
+    transform: translate(0%, 0%);
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .pricing__pro__precio__offer {
+    margin-top: 0px;
+    transform: translate(0%, 0%);
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .pricing__pro__check {
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .pricing__pro__check li {
+    transform: translate(0%, 0%);
+  }
+  .pricing__pro__buttom {
+    transform: translate(65%, 120%);
+    padding: 5%;
+    width: 45%;
+    text-align: center;
+  }
+  .pricing__premium {
+    margin-left: 0%;
+    margin-top: 20px;
+    height: 485px;
+    width: 372px;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .pricing__premium__precio {
+    width: 100%;
+  }
+  .pricing__premium__precio h3 {
+    margin-top: 20px;
+    transform: translate(0%, 0%);
+    text-align: center;
+  }
+  .pricing__premium__precio__dollar {
+    margin-top: 15px;
+    transform: translate(0%, 0%);
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .pricing__premium__precio__offer {
+    margin-top: 0px;
+    transform: translate(0%, 0%);
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .pricing__premium__check {
+    width: 100%;
+    text-align: center;
+    margin-left: 0px;
+  }
+  .pricing__premium__check li {
+    transform: translate(0%, 0%);
+  }
+  .pricing__premium__buttom {
+    transform: translate(65%, 120%);
+    padding: 5%;
+    width: 45%;
+    text-align: center;
+  }
+}
 .question {
   margin-top: 20%;
   margin-left: 5%;
 }
-.question h2 {
+.question__left h2 {
   font-family: Raleway;
   font-size: 40px;
   font-weight: 400;
   line-height: 46.96px;
 }
-.question__call {
+.question__left__call {
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
   text-align: left;
 }
-.question__mail p {
+.question__left__mail p {
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 600;
@@ -460,10 +729,10 @@
   color: #A5A5A5;
   transform: translate(10%, -130%);
 }
-.question__mail img {
+.question__left__mail img {
   margin-top: 10%;
 }
-.question__phone p {
+.question__left__phone p {
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 600;
@@ -472,13 +741,13 @@
   color: #A5A5A5;
   transform: translate(10%, -130%);
 }
-.question__link {
+.question__left__link {
   position: relative;
 }
-.question__link a {
+.question__left__link a {
   transform: translate(10%, 10%);
 }
-.question__link__edin {
+.question__left__link__edin {
   position: absolute;
   font-family: "Open Sans";
   font-size: 16px;
@@ -488,7 +757,7 @@
   color: #A5A5A5;
   text-decoration: none;
 }
-.question__link__edin:visited {
+.question__left__link__edin:visited {
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 600;
@@ -497,7 +766,7 @@
   color: #A5A5A5;
   text-decoration: none;
 }
-.question__link__edin:active {
+.question__left__link__edin:active {
   font-family: "Open Sans";
   font-size: 16px;
   font-weight: 600;
@@ -571,6 +840,46 @@
   box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
 }
 
+@media (min-width: 1000px) {
+  .question {
+    margin-top: 190px;
+    margin-left: 18%;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+  .question__left {
+    width: 30%;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .question__left h2 {
+    font-family: Raleway;
+    font-size: 49px;
+    font-weight: 400;
+    line-height: 46.96px;
+    text-align: left;
+  }
+  .question__left__call {
+    margin-top: 20px;
+    margin-left: 0%;
+  }
+  .question__form {
+    margin-top: 0px;
+    width: 38%;
+  }
+  .question__form__checkbox {
+    margin-left: 0%;
+  }
+  .question__form__checkbox__text {
+    width: 70%;
+  }
+  .question__form__button {
+    transform: translate(100%, 0%);
+    padding: 3.5%;
+    width: 40%;
+  }
+}
 .footer {
   margin-top: 40px;
   margin-bottom: 20px;
@@ -611,6 +920,18 @@
   margin-right: 25px;
 }
 
+@media (min-width: 1000px) {
+  .footer {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .footer__img {
+    margin-top: 30px;
+    transform: translate(0%, 0%);
+    width: auto;
+    margin-left: 325px;
+  }
+}
 .header {
   width: 100%;
   display: inline-block;
@@ -676,6 +997,13 @@
     letter-spacing: 3.2799999714px;
     text-align: center;
     color: #A5A5A5;
+  }
+  .header__ul__li:hover {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #08A6E4;
+    text-underline-offset: 15px;
+    text-decoration-thickness: 2px;
   }
 }
 .icon__daily {
@@ -790,7 +1118,6 @@
 
 @media screen and (min-width: 1000px) {
   .icon {
-    display: inline-block;
     margin-left: 20%;
     margin-bottom: 40px;
   }

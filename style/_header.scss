@@ -70,8 +70,13 @@
                 letter-spacing: 3.2799999713897705px;
                 text-align: center;
                 color: #A5A5A5;
-
-                
+            }
+            &__li:hover{
+                color: black;
+                text-decoration: underline;
+                text-decoration-color: #08A6E4;
+                text-underline-offset: 15px;
+                text-decoration-thickness: 2px;
             }
         }
     }

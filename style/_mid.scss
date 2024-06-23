@@ -8,8 +8,8 @@
         background-color: white;
         width: 80%;
         margin-left: 10%;
-
         display: block;
+
         &__img{
             padding-top: 15px;
             &__laptop{
@@ -21,29 +21,42 @@
             &__circle{
                 position: absolute;
                 margin-left: 43%;
-                
             }
-        }
-        h3{
-            margin-top: 5%;
-            font-family: Raleway;
-            font-size: 30px;
-            font-weight: 400;
-            line-height: 35.22px;
-            text-align: left;
-            margin-left: 5%;
+            
+            &__laptop2{
+                display: none;
+            }
+            &__rectangle{
+                display: none;
+            }
 
         }
 
-        p{
-            margin-top:10%;
-            font-family: Open Sans;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 21px;
-            text-align: left;
-            margin-left: 5%;
-            padding-bottom: 15px;
+        &__text{
+            h3{
+                margin-top: 5%;
+                font-family: Raleway;
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 35.22px;
+                text-align: left;
+                margin-left: 5%;
+
+            }
+
+            p{
+                margin-top:10%;
+                font-family: Open Sans;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                text-align: left;
+                margin-left: 5%;
+                padding-bottom: 15px;
+            }
+            hr{
+                display: none;
+            }
         }
     }
 
@@ -66,86 +79,224 @@
             &__circleblue{
                 position: absolute;
                 margin-left: 21%;
-                
             }
 
-        }
-        h3{
-            margin-top: 5%;
-            font-family: Raleway;
-            font-size: 30px;
-            font-weight: 400;
-            line-height: 35.22px;
-            text-align: left;
-            margin-left: 5%;
+            &__phone2{
+                display: none;
+            }
 
+            &__circleblue2{
+                display: none;
+            }
         }
+        &__text{
+            h3{
+                margin-top: 5%;
+                font-family: Raleway;
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 35.22px;
+                text-align: left;
+                margin-left: 5%;
 
-        p{
-            margin-top:10%;
-            font-family: Open Sans;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 21px;
-            text-align: left;
-            margin-left: 5%;
-            padding-bottom: 15px;
+            }
+
+            p{
+                margin-top:10%;
+                font-family: Open Sans;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                text-align: left;
+                margin-left: 5%;
+                padding-bottom: 15px;
+            }
+            hr{
+                display: none;
+            }
         }
     }
 
     &__brand{
+        &__text{
+            background-color: white;
+            width: 80%;
+            margin-left: 10%;
+            margin-top:30px;
 
-        background-color: white;
-        width: 80%;
-        margin-left: 10%;
-        margin-top:30px;
-
-        display: block;
-        h3{
-            font-family: Raleway;
-            font-size: 30px;
-            font-weight: 400;
-            line-height: 35.22px;
-            text-align: left;
-            margin-left: 5%;
-            padding-top: 5%;
+            display: block;
+            h3{
+                font-family: Raleway;
+                font-size: 30px;
+                font-weight: 400;
+                line-height: 35.22px;
+                text-align: left;
+                margin-left: 5%;
+                padding-top: 5%;
 
 
+            }
+
+            p{
+                margin-top:10%;
+                font-family: Open Sans;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 21px;
+                text-align: left;
+                margin-left: 5%;
+                padding-bottom: 10px;
+            }
+
+            hr{
+                display:none;
+            }
         }
+    
 
-        p{
-            margin-top:10%;
-            font-family: Open Sans;
-            font-size: 14px;
-            font-weight: 400;
-            line-height: 21px;
-            text-align: left;
-            margin-left: 5%;
-            padding-bottom: 10px;
-        }
-    }
+        &__trump{
+            background-color: #55DFB4;
+            width: 314px;
+            height: 195px;
+            width: 80%;
+            margin-left: 10%;
+            border-radius: 5px;
 
-    &__trump{
-        background-color: #55DFB4;
-        width: 314px;
-        height: 195px;
-        width: 80%;
-        margin-left: 10%;
-        border-radius: 5px;
-
-        &__trumpet{
-            padding-top: 10%;
-            padding-right: 50px;
-            width: 350px;
-            height: 250px;
+            &__trumpet{
+                padding-top: 10%;
+                padding-right: 50px;
+                width: 350px;
+                height: 250px;
+            }
         }
     }
 }
 
-@media screen and (min-width: 1000px){
+@media (min-width:1000px){
     .mid{
         &__first{
-            position:flex;
-    }
+            display: flex;
+            flex-flow: row wrap;
+            &__img{
+                order:2;
+                transform: translate();
+                &__circle{
+                    display: none;
+                }
+                &__laptop{
+                    display: none;
+                }
+                &__laptop2{
+                    position: relative;
+                    display: flex;
+                    transform: translate(20%, 28%);
+                }
+                &__rectangle{
+                    display: flex;
+                    position: absolute;
+                    transform: translate(125%, 5%);
+                }
+            }
+            
+            &__text{
+                width: 45%;
+                h3{
+                    order:1;
+                    padding-top: 50px;
+                }
+                p{
+                    order:1;   
+                    width: 75%;
+                }
+                hr{
+                    margin-top: 15px;
+                    width: 58%;
+                    display: flex;
+                    margin-left: 5%;
+                    margin-bottom:80px ;
+                    border: 2px solid red;
+                }
+            }
+        }
+
+        &__shop{
+            display: flex;
+            flex-flow: row wrap;
+            &__img{
+                width:45%;
+                margin-left: 5%;
+                &__circleblue{
+                    display: none;
+                }
+                &__phone{
+                    display: none;
+                }
+                &__circleblue2{
+                    display: flex;
+                    position:absolute;
+                }
+                &__phone2{
+                    display: flex;
+                    position:relative;
+                    padding-bottom: 20px;
+                    transform: translate(0%,5%);
+                }
+            }
+            &__text{
+                width:43%;
+                margin-left: 7%;
+                margin-top: 40px;   
+                h3{
+                    text-align: left;
+                    width: 50%;
+                }
+                p{
+                    width: 80%;
+                    margin-top: 20px;
+                }
+                hr{
+                    display:flex;   
+                    width: 60%;
+                    margin-left: 5%;
+                    margin-top: 20px;   
+                    border: 2px solid #08A6E4;
+                }
+            }
+        }
+
+        &__brand{
+            display: flex;
+            flex-flow: row wrap;
+            &__text{
+                width:42%;
+                h3{
+                    margin-top: 20px;
+                    width: 60%;
+                }
+                p{
+                    width:70%;
+                    margin-bottom: 20px;
+                }
+                hr{
+                    display: flex;
+                    margin-bottom: 55px;
+                    border: 2px solid #55DFB4;
+                    margin-left: 5%;
+                    width: 55%;
+                }
+            }
+            &__trump{
+                height: auto;
+                margin-top:30px;
+                width:33%;
+                margin-left: 5%;
+                &__trumpet{
+                    width: 80%;
+                    transform: translate(10%,5%);
+                    margin-top: 20px;
+                }
+            }
+
+        }
     }
 }
