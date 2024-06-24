@@ -178,6 +178,7 @@
             display: flex;
             flex-flow: row wrap;
             &__img{
+                align-items: center;
                 order:2;
                 transform: translate();
                 &__circle{
