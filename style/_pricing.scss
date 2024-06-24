@@ -264,19 +264,25 @@
             margin-bottom: 40px;
         }
 
-        &__basic{
+        &--stilo{
             margin-top:20px;
             display: flex;
             flex-flow: column nowrap;
             margin-left: 0%;
-            height: 485px; 
-            width: 372px;
+            width: 25%;
+        }
+
+        &--h3{
+            margin-top: 20px;
+            transform: translate(0%,0%);
+            text-align: center;    
+        }
+        &__basic{
+            @extend .pricing--stilo;
             &__precio{
                 width: 100%;
                 h3{
-                    margin-top: 20px;
-                    transform: translate(0%,0%);
-                    text-align: center;    
+                    @extend .pricing--h3;   
                 }
                 p{
                     margin-top: 15px;
@@ -303,18 +309,11 @@
         }
 
         &__pro{
-            margin-top:20px;
-            margin-left: 0%;
-            height: 485px; 
-            width: 372px;
-            display: flex;
-            flex-flow: column nowrap;
+            @extend .pricing--stilo;
             &__precio{
                 width: 100%;
                 h3{
-                    margin-top: 20px;
-                    transform: translate(0%,0%);
-                    text-align: center;    
+                    @extend .pricing--h3;
                 }
                 &__dollar{
                     margin-top: 15px;
@@ -349,18 +348,11 @@
         }
 
         &__premium{
-            margin-left: 0%;
-            margin-top:20px;
-            height: 485px; 
-            width: 372px;
-            display: flex;
-            flex-flow: column nowrap;
+            @extend .pricing--stilo;
             &__precio{
                 width: 100%;
                 h3{
-                    margin-top: 20px;
-                    transform: translate(0%,0%);
-                    text-align: center;    
+                    @extend .pricing--h3;    
                 }
                 &__dollar{
                     margin-top: 15px;
