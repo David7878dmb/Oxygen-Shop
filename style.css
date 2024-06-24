@@ -52,23 +52,31 @@
 }
 
 @media screen and (min-width: 1000px) {
-  h2 {
+  .sell {
+    margin-left: 0 auto;
+  }
+  .sell h2 {
     text-align: center;
     font-family: Raleway;
     font-size: 49px;
     font-weight: 400;
     line-height: 57px;
   }
-  p {
+  .sell p {
     font-family: "Open Sans";
     font-size: 16px;
     font-weight: 400;
     line-height: 22px;
     text-align: center;
   }
-  button {
-    width: 440px;
-    transform: translate(115%, 0%);
+  .sell__boton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .sell__boton button {
+    margin-left: 0 auto;
   }
   .setup img {
     margin: 0 0 35px 0;
@@ -89,8 +97,15 @@
 }
 
 @media screen and (min-width: 1000px) {
+  .sales {
+    display: flex;
+    justify-content: center;
+  }
   .sales h2 {
+    margin-left: 100px;
+    width: 100%;
     margin-top: 0%;
+    text-align: center;
   }
 }
 .mid {
@@ -242,6 +257,7 @@
     flex-flow: row wrap;
   }
   .mid__first__img {
+    align-items: center;
     order: 2;
     transform: translate();
   }
@@ -371,8 +387,6 @@
   padding-bottom: 2.5rem;
   width: 80%;
   margin-left: 10%;
-  width: 293px;
-  height: 275px;
   border-radius: 15px;
   border: 1px solid #FB3B64;
   position: relative;
@@ -428,8 +442,6 @@
   padding-bottom: 2.5rem;
   width: 80%;
   margin-left: 10%;
-  width: 293px;
-  height: 275px;
   border-radius: 15px;
   border: 1px solid #07ACE6;
   position: relative;
@@ -496,8 +508,6 @@
   padding-bottom: 2.5rem;
   width: 80%;
   margin-left: 10%;
-  width: 293px;
-  height: 275px;
   border-radius: 15px;
   border: 1px solid #55DFB4;
   position: relative;
@@ -1118,7 +1128,8 @@
 
 @media screen and (min-width: 1000px) {
   .icon {
-    margin-left: 20%;
+    display: flex;
+    justify-content: center;
     margin-bottom: 40px;
   }
   .icon__daily {

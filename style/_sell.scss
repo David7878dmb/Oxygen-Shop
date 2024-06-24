@@ -58,33 +58,39 @@
 }
 
 @media screen and (min-width: 1000px) {
-    h2{
-        text-align: center;
-        font-family: Raleway;
-        font-size: 49px;
-        font-weight: 400;
-        line-height: 57px;
-    }
+    .sell{
+        margin-left:0 auto;
+        h2{
+            text-align: center;
+            font-family: Raleway;
+            font-size: 49px;
+            font-weight: 400;
+            line-height: 57px;
+        }
 
-    p{
-        font-family: 'Open Sans';
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 22px;
-        text-align: center;
-    }
-
-    button{
-        width: 440px;
-        transform: translate(115%,0%);
-    }
-
-    .setup{
-        img{
-            margin: 0 0 35px 0;
+        p{
+            font-family: 'Open Sans';
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 22px;
+            text-align: center;
+        }
+        &__boton{
+            display: flex;
+            justify-content: center;
             width: 100%;
-            height: auto;
-            object-fit: cover;
+            margin: 0 auto;
+            button{
+                margin-left:0 auto;
+            }
         }
     }
-}
+        .setup{
+            img{
+                margin: 0 0 35px 0;
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }

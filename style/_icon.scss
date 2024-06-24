@@ -138,8 +138,8 @@
 
 @media screen and (min-width: 1000px){
     .icon{
-        
-        margin-left: 20%;
+        display: flex;
+        justify-content: center;
         margin-bottom: 40px;
         &__daily{
             display: inline-block;
