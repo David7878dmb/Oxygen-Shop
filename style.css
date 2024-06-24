@@ -594,21 +594,20 @@
     margin-top: 80px;
     margin-bottom: 40px;
   }
-  .pricing__basic {
+  .pricing--stilo, .pricing__premium, .pricing__pro, .pricing__basic {
     margin-top: 20px;
     display: flex;
     flex-flow: column nowrap;
     margin-left: 0%;
-    height: 485px;
-    width: 372px;
+    width: 25%;
   }
-  .pricing__basic__precio {
-    width: 100%;
-  }
-  .pricing__basic__precio h3 {
+  .pricing--h3, .pricing__premium__precio h3, .pricing__pro__precio h3, .pricing__basic__precio h3 {
     margin-top: 20px;
     transform: translate(0%, 0%);
     text-align: center;
+  }
+  .pricing__basic__precio {
+    width: 100%;
   }
   .pricing__basic__precio p {
     margin-top: 15px;
@@ -628,21 +627,8 @@
     width: 45%;
     text-align: center;
   }
-  .pricing__pro {
-    margin-top: 20px;
-    margin-left: 0%;
-    height: 485px;
-    width: 372px;
-    display: flex;
-    flex-flow: column nowrap;
-  }
   .pricing__pro__precio {
     width: 100%;
-  }
-  .pricing__pro__precio h3 {
-    margin-top: 20px;
-    transform: translate(0%, 0%);
-    text-align: center;
   }
   .pricing__pro__precio__dollar {
     margin-top: 15px;
@@ -670,21 +656,8 @@
     width: 45%;
     text-align: center;
   }
-  .pricing__premium {
-    margin-left: 0%;
-    margin-top: 20px;
-    height: 485px;
-    width: 372px;
-    display: flex;
-    flex-flow: column nowrap;
-  }
   .pricing__premium__precio {
     width: 100%;
-  }
-  .pricing__premium__precio h3 {
-    margin-top: 20px;
-    transform: translate(0%, 0%);
-    text-align: center;
   }
   .pricing__premium__precio__dollar {
     margin-top: 15px;
