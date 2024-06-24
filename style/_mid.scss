@@ -22,7 +22,7 @@
                 position: absolute;
                 margin-left: 43%;
             }
-            
+
             &__laptop2{
                 display: none;
             }
@@ -152,7 +152,7 @@
                 display:none;
             }
         }
-    
+
 
         &__trump{
             background-color: #55DFB4;
@@ -177,6 +177,8 @@
         &__first{
             display: flex;
             flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
             &__img{
                 align-items: center;
                 order:2;
@@ -190,15 +192,15 @@
                 &__laptop2{
                     position: relative;
                     display: flex;
-                    transform: translate(20%, 28%);
+                    // transform: translate(20%, 28%);
                 }
                 &__rectangle{
                     display: flex;
                     position: absolute;
-                    transform: translate(125%, 5%);
+                    transform: translate(90%, -22%);
                 }
             }
-            
+
             &__text{
                 width: 45%;
                 h3{
@@ -206,7 +208,7 @@
                     padding-top: 50px;
                 }
                 p{
-                    order:1;   
+                    order:1;
                     width: 75%;
                 }
                 hr{
@@ -222,10 +224,14 @@
 
         &__shop{
             display: flex;
+            align-items: center;
+            justify-content: center;
             flex-flow: row wrap;
             &__img{
+                display: flex;
+                align-items: center;
+                justify-content: start;
                 width:45%;
-                margin-left: 5%;
                 &__circleblue{
                     display: none;
                 }
@@ -245,8 +251,7 @@
             }
             &__text{
                 width:43%;
-                margin-left: 7%;
-                margin-top: 40px;   
+            
                 h3{
                     text-align: left;
                     width: 50%;
@@ -256,10 +261,10 @@
                     margin-top: 20px;
                 }
                 hr{
-                    display:flex;   
+                    display:flex;
                     width: 60%;
                     margin-left: 5%;
-                    margin-top: 20px;   
+                    margin-top: 20px;
                     border: 2px solid #08A6E4;
                 }
             }

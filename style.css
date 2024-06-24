@@ -255,6 +255,8 @@
   .mid__first {
     display: flex;
     flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
   }
   .mid__first__img {
     align-items: center;
@@ -270,12 +272,11 @@
   .mid__first__img__laptop2 {
     position: relative;
     display: flex;
-    transform: translate(20%, 28%);
   }
   .mid__first__img__rectangle {
     display: flex;
     position: absolute;
-    transform: translate(125%, 5%);
+    transform: translate(90%, -22%);
   }
   .mid__first__text {
     width: 45%;
@@ -298,11 +299,15 @@
   }
   .mid__shop {
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-flow: row wrap;
   }
   .mid__shop__img {
+    display: flex;
+    align-items: center;
+    justify-content: start;
     width: 45%;
-    margin-left: 5%;
   }
   .mid__shop__img__circleblue {
     display: none;
@@ -322,8 +327,6 @@
   }
   .mid__shop__text {
     width: 43%;
-    margin-left: 7%;
-    margin-top: 40px;
   }
   .mid__shop__text h3 {
     text-align: left;
@@ -948,6 +951,10 @@
 }
 
 @media screen and (min-width: 1000px) {
+  .header {
+    display: flex;
+    flex-flow: row nowrap;
+  }
   .header__1 {
     display: none;
   }
@@ -955,6 +962,7 @@
     display: none;
   }
   .header__h0 {
+    width: 20%;
     display: inline-block;
     font-family: Raleway;
     font-size: 32px;
@@ -968,11 +976,15 @@
   }
   .header__ul {
     margin-left: 31%;
-    display: inline;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    align-items: center;
+    width: 50%;
   }
   .header__ul__li {
     margin-right: 80px;
-    display: inline;
+    display: flex;
     font-family: "Open Sans";
     font-size: 11px;
     font-weight: 700;
