@@ -35,6 +35,8 @@
 
 @media screen and (min-width: 1000px) {
     .header{
+        display: flex;
+        flex-flow: row nowrap;
         &__1 {
             display: none;
         }
@@ -44,6 +46,7 @@
         }
 
         &__h0{
+            width: 20%;
             display: inline-block;
             font-family: Raleway;
             font-size: 32px;
@@ -57,12 +60,14 @@
         }
         &__ul{
             margin-left: 31%;
-            display: inline;
-            
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: end;
+            align-items: center; 
+            width: 50%;
             &__li{
                 margin-right: 80px; 
-                
-                display: inline;
+                display: flex;
                 font-family: 'Open Sans';
                 font-size: 11px;
                 font-weight: 700;
