@@ -45,44 +45,6 @@
             }
         }
 
-        &__link{ 
-            position:relative;
-            a{
-                transform: translate(10%, 10%);   
-            }
-            &__edin{
-                position:absolute;
-                font-family: 'Open Sans';
-                font-size: 16px;
-                font-weight: 600;
-                line-height: 22px;
-                text-align: left;
-                color:#A5A5A5;
-                text-decoration: none;
-            }
-            
-
-
-            &__edin:visited{
-                font-family: 'Open Sans';
-                font-size: 16px;
-                font-weight: 600;
-                line-height: 22px;
-                text-align: left;
-                color:#A5A5A5;
-                text-decoration: none;
-            }
-
-            &__edin:active{ 
-                font-family: 'Open Sans';
-                font-size: 16px;
-                font-weight: 600;
-                line-height: 22px;
-                text-align: left;
-                color:#A5A5A5;
-                text-decoration: none;
-            }
-        }
     }
 
     &__form{
