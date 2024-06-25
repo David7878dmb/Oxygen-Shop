@@ -42,8 +42,10 @@
         &__check{
             text-align: center;
             width: 45%;
+            margin-left: 15px;
             display: inline-block;
             li{
+                text-align: left;
                 transform: translate(0%, 80%);
                 line-height: 40px;
                 list-style: none;
@@ -273,7 +275,7 @@
         }
 
         &--h3{
-            margin-top: 20px;
+            margin-top: 30px;
             transform: translate(0%,0%);
             text-align: center;    
         }
@@ -296,6 +298,7 @@
                 width: 100%;
 
                 li{
+                    text-align: center;
                     transform: translate(0%,0%);
                 }
             }
