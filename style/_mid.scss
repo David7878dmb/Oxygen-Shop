@@ -1,26 +1,26 @@
 .mid{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 1.875em;
+    padding-bottom: 1.875em;
     background-color:#F7F7F7;
     display:block;
 
     &__first{
         background-color: white;
         width: 80%;
-        margin-left: 10%;
+        margin:0 auto;
         display: block;
 
         &__img{
-            padding-top: 15px;
+            padding-top: .9375em;
             &__laptop{
                 position: relative;
-                margin-left: 19%;
-                margin-top:7%;
+                margin-left: 3.125em;
+                margin-top:1.75em;
             }
 
             &__circle{
                 position: absolute;
-                margin-left: 43%;
+                margin-left: 9.5625em;
             }
 
             &__laptop2{
@@ -34,25 +34,24 @@
 
         &__text{
             h3{
-                margin-top: 5%;
+                margin-top: .625em;
                 font-family: Raleway;
-                font-size: 30px;
+                font-size: 1.875rem;
                 font-weight: 400;
-                line-height: 35.22px;
+
                 text-align: left;
-                margin-left: 5%;
+                margin-left: .625em;
 
             }
 
             p{
-                margin-top:10%;
+                margin-top:1.25em;
                 font-family: Open Sans;
-                font-size: 14px;
+                font-size: .875rem;
                 font-weight: 400;
-                line-height: 21px;
                 text-align: left;
-                margin-left: 5%;
-                padding-bottom: 15px;
+                margin-left: .625em;
+                padding-bottom: .9375em;
             }
             hr{
                 display: none;
@@ -63,22 +62,20 @@
     &__shop{
         background-color: white;
         width: 80%;
-        margin-left: 10%;
-        margin-top:30px;
-
+        margin:0 auto;
+        margin-top:1.875em;
         display: block;
-
         &__img{
-            padding-top: 15px;
+            padding-top: .9375em;
             &__phone{
                 position: relative;
-                margin-left: 26%;
-                margin-top:2%;
+                margin-left: 5.625em;
+                margin-top:.625em;
             }
 
             &__circleblue{
                 position: absolute;
-                margin-left: 21%;
+                margin-left: 5em;
             }
 
             &__phone2{
@@ -91,25 +88,23 @@
         }
         &__text{
             h3{
-                margin-top: 5%;
+                margin-top: .625em;
                 font-family: Raleway;
-                font-size: 30px;
+                font-size: 1.875rem;
                 font-weight: 400;
-                line-height: 35.22px;
                 text-align: left;
-                margin-left: 5%;
+                margin-left: .5375em;
 
             }
 
             p{
-                margin-top:10%;
-                font-family: Open Sans;
-                font-size: 14px;
+                margin-top: .625em;
+                font-family: 'Open Sans';
+                font-size: .875rem;
                 font-weight: 400;
-                line-height: 21px;
                 text-align: left;
-                margin-left: 5%;
-                padding-bottom: 15px;
+                margin-left: .9375em;
+                padding-bottom: .9375em;
             }
             hr{
                 display: none;
@@ -121,31 +116,28 @@
         &__text{
             background-color: white;
             width: 80%;
-            margin-left: 10%;
-            margin-top:30px;
-
+            margin: 0 auto;
+            margin-top:1.875em;
             display: block;
             h3{
                 font-family: Raleway;
-                font-size: 30px;
+                font-size: 1.875rem;
                 font-weight: 400;
-                line-height: 35.22px;
                 text-align: left;
-                margin-left: 5%;
-                padding-top: 5%;
+                margin-left: .5375em;
+                padding-top: .9375em;
 
 
             }
 
             p{
-                margin-top:10%;
-                font-family: Open Sans;
-                font-size: 14px;
+                margin-top:1.5625em;
+                font-family: 'Open Sans';
+                font-size: .875rem;
                 font-weight: 400;
-                line-height: 21px;
                 text-align: left;
-                margin-left: 5%;
-                padding-bottom: 10px;
+                margin-left: .9375em;
+                padding-bottom: .625em;
             }
 
             hr{
@@ -159,12 +151,12 @@
             width: 314px;
             height: 195px;
             width: 80%;
-            margin-left: 10%;
-            border-radius: 5px;
+            margin:0 auto;
+            border-radius: .3125em;
 
             &__trumpet{
-                padding-top: 10%;
-                padding-right: 50px;
+                padding-top: 1.25rem;
+                padding-right: 3.125em;
                 width: 350px;
                 height: 250px;
             }
@@ -172,7 +164,7 @@
     }
 }
 
-@media (min-width:1000px){
+@media (min-width:62.5rem){
     .mid{
         &__first{
             display: flex;
@@ -205,19 +197,19 @@
                 width: 45%;
                 h3{
                     order:1;
-                    padding-top: 50px;
+                    padding-top: 3.125rem;
                 }
                 p{
                     order:1;
                     width: 75%;
                 }
                 hr{
-                    margin-top: 15px;
+                    margin-top: .9375rem;
                     width: 58%;
                     display: flex;
                     margin-left: 5%;
-                    margin-bottom:80px ;
-                    border: 2px solid red;
+                    margin-bottom:5rem ;
+                    border: .125rem solid red;
                 }
             }
         }
@@ -245,7 +237,7 @@
                 &__phone2{
                     display: flex;
                     position:relative;
-                    padding-bottom: 20px;
+                    padding-bottom: 1.25rem;
                     transform: translate(0%,5%);
                 }
             }
@@ -258,48 +250,48 @@
                 }
                 p{
                     width: 80%;
-                    margin-top: 20px;
+                    margin-top: 1.25rem;
                 }
                 hr{
                     display:flex;
                     width: 60%;
                     margin-left: 5%;
-                    margin-top: 20px;
-                    border: 2px solid #08A6E4;
+                    margin-top: 1.25rem;
+                    border: .125rem solid #08A6E4;
                 }
             }
         }
 
         &__brand{
+            margin: 0 43px;
             display: flex;
             flex-flow: row wrap;
             &__text{
-                width:42%;
+                width:40%;
                 h3{
-                    margin-top: 20px;
+                    margin-top: 1.25rem;
                     width: 60%;
                 }
                 p{
                     width:70%;
-                    margin-bottom: 20px;
+                    margin-bottom: 1.25rem;
                 }
                 hr{
                     display: flex;
-                    margin-bottom: 55px;
-                    border: 2px solid #55DFB4;
+                    margin-bottom: 3.4375rem;
+                    border: .125rem solid #55DFB4;
                     margin-left: 5%;
                     width: 55%;
                 }
             }
             &__trump{
                 height: auto;
-                margin-top:30px;
-                width:33%;
-                margin-left: 5%;
+                margin-top:1.875rem;
+                width:30%;
                 &__trumpet{
                     width: 80%;
                     transform: translate(10%,5%);
-                    margin-top: 20px;
+                    margin-top: 1.25rem;
                 }
             }
 

@@ -1,28 +1,28 @@
 .question{
-    margin-top: 20%;
-    margin-left: 5%;
+    margin-top: 3em;
+    margin-left: 1em;
     &__left{
         h2{
             font-family: Raleway;
-            font-size: 40px;
+            font-size: 2.5em;
             font-weight: 400;
-            line-height: 46.96px;
+            line-height: 2.935rem;
         }
         
         &__call{
             font-family: 'Open Sans';
-            font-size: 16px;
+            font-size: 1em;
             font-weight: 400;
-            line-height: 22px;
+            line-height: 1.375rem;
             text-align: left;
         }
 
         &__mail{
             p{
                 font-family: 'Open Sans';
-                font-size: 16px;
+                font-size: 1em;
                 font-weight: 600;
-                line-height: 22px;
+                line-height: 1.375rem;
                 text-align: left;
                 color:#A5A5A5;
                 transform: translate(10%, -130%);
@@ -36,9 +36,9 @@
         &__phone{
             p{
                 font-family: 'Open Sans';
-                font-size: 16px;
+                font-size: 1em;
                 font-weight: 600;
-                line-height: 22px;
+                line-height: 1.375rem;
                 text-align: left;
                 color:#A5A5A5;
                 transform: translate(10%, -130%);
@@ -48,24 +48,21 @@
     }
 
     &__form{
-        margin-left: 1%;
-        margin-top: 40px;
+        margin-top: 2.5rem;
         &__ne{
             font-family: 'Open Sans';
-            font-size: 11px;
+            font-size: .6875em;
             font-weight: 600;
-            line-height: 14.98px;
-            letter-spacing: .2rem;
             text-align: left;
             color: #08A6E4;
-            padding-bottom: 15px;
+            padding-bottom: .9375em;
         }
 
         &__input{
             border:none;
             border-bottom: 2px solid #95989A;
             width: 90%;
-            margin-bottom: 30px;
+            margin-bottom: 1.875em;
         }
         
         &__checkbox{
@@ -77,7 +74,7 @@
                 display: inline-block;
                 width: 10%;
                 vertical-align: top;
-                border-bottom: 0.5px solid #95989A;
+                border-bottom: .5008px solid #95989A;
                 accent-color: white;
                 
             }
@@ -94,9 +91,8 @@
                 display: inline-block;
                 width: 75%;
                 font-family: 'Open Sans';
-                font-size: 12px;
+                font-size: .75em;
                 font-weight: 400;
-                line-height: 16.34px;
                 text-align: left;
                 color: #707070;
 
@@ -104,16 +100,15 @@
         }
 
         &__button{
-            transform: translate(50%, 0%);
-            margin-top: 20px;
-            padding: 5% 25%;
-            border-radius: 40px;
+            transform: translate(60%, 0%);
+            margin-top: 1.25em;
+            padding: 17px 80px;
+            border-radius: 2.5rem;
             background-color: #08A6E4;
             border: none;
             font-family: 'Open Sans';
-            font-size: 13px;
+            font-size: .8125em;
             font-weight: 700;
-            line-height: 17.7px;
             color: white;
             box-shadow: 5px 10px 14px 0px #07ACE64A;
         }
@@ -121,13 +116,13 @@
 }
 
 
-@media (min-width:1000px){
+@media (min-width:62.5rem){
     .question{
-        margin-top: 190px;
-        margin-left: 18%;
+        margin-top: 10em;
+        // margin-left: 18%;
         display: flex;
         flex-flow: row wrap;
-        width:100%;
+        justify-content: center;
         
         &__left{ 
             width: 30%;
@@ -135,20 +130,20 @@
             flex-flow: column nowrap;
             h2{
                 font-family: Raleway;
-                font-size: 49px;
+                font-size: 3.0625rem;
                 font-weight: 400;
-                line-height: 46.96px;
+                line-height: 2.935rem;
                 text-align: left;
             }
             &__call{
-                margin-top: 20px;
+                margin-top: 1.25rem;
                 margin-left: 0%;
             }
             
         }
 
         &__form{
-            margin-top: 0px;
+            margin-top: 0rem;
             width: 38%;
             &__checkbox{
                 margin-left: 0%;

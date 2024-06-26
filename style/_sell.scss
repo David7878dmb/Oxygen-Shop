@@ -1,28 +1,23 @@
 .sell{
-    margin-top: 80px;
-    margin-left: 2.0625rem;
-    margin-right: 2.0625rem;
-
-
+    margin-top: 5em;
+    margin-left: 2.0625em;
+    margin-right: 2.0625em;
     h2{
 
-        margin-bottom: 20px;
-
+        margin-bottom: 1.25em;
         font-family: Raleway;
         font-size: 2.1875rem;
         font-weight: 400;
-        line-height: 2.5681rem;
         text-align: center;
         color: black;
     }
 
     p{
-        margin-left: .0975rem;
-        margin-bottom: 30px;
+        margin-left: .0975em;
+        margin-bottom: 1.875em;
         font-family: 'Open Sans';
         font-size: 1rem;
         font-weight: 400;
-        line-height: 1.4375rem;
         text-align: center;
         color: black;
         
@@ -30,24 +25,22 @@
 
     button{
         padding: 0px 90px;
-        border-radius: 2.5rem;
+        border-radius: 2.5em;
         background: #08A6E4;
         box-shadow: 5px 10px 14px 0px #07ACE64A;
         border:none;
-        margin-bottom: 20px;
         p{
-            margin-top: 20px;
+            margin-top: 1.25em;
             font-family: 'Open Sans';
-            font-size: 1rem;
+            font-size: .9rem;
             font-weight: 700;
-            line-height: 1.375rem;
             text-align: center;
             color: white;
         }
     }
 }
 .setup{
-    margin-top: 20px;
+    margin-top: 1.45em;
     overflow: hidden;
     &__movil{
         margin: 0 0 35px 0;
