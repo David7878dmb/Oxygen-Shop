@@ -1,18 +1,18 @@
 .pricing{
     &__tittle{
-        margin-top:14%;
+        margin-top: 1.3em;
         font-family: 'Raleway';
-        font-size: 36px;
+        font-size: 2.25rem;
         font-weight: 400;
-        line-height: 42.26px;
         text-align: center;
+        margin-bottom: 1em;
     }
     &__basic{
-        margin-top: 15px;
-        padding-bottom: 2.5rem;
+        margin-top: .9375em;
+        padding-bottom: 2.5em;
         width: 80%;
-        margin-left: 10%; 
-        border-radius: 15px;
+        margin:0 auto;
+        border-radius: .9375em;
         border: 1px solid #FB3B64;
         position: relative;
 
@@ -22,18 +22,15 @@
             h3{   
                 transform: translate(40%, -85%);
                 font-family: Raleway;
-                font-size: 20px;
+                font-size: 1.25rem;
                 font-weight: 700;
-                line-height: 24px;
-
             }
 
             p{
                 transform: translate(40%, -30%);
                 font-family: 'Open Sans';
-                font-size: 46px;
+                font-size: 2.875rem;
                 font-weight: 300;
-                line-height: 64px;
                 color: #FB3B64;
 
             }
@@ -42,32 +39,34 @@
         &__check{
             text-align: center;
             width: 45%;
-            margin-left: 15px;
+            margin-left: .9375em;
             display: inline-block;
             li{
                 text-align: left;
                 transform: translate(0%, 80%);
-                line-height: 40px;
+                line-height: 2.5rem;
                 list-style: none;
+                font-family: 'Open Sans';
+                font-size: .875em;
+                font-weight: 400;
             }
 
             img{
-                margin-right: 5px;
+                margin-right: .3125em;
             }
         }
         
         &__buttom{
-            transform: translate(50%, 100%);
-            padding: 5% 20%;
-            border-radius: 23px;
+            transform: translate(45%, 130%);
+            padding: 15px 60px;
+            border-radius: 1.4375rem;
             background-color: #EB476E;
-            border: 0px;
+            border: 0rem;
         
 
             font-family: 'Open Sans';
-            font-size: 13px;
+            font-size: .8125em;
             font-weight: 700;
-            line-height: 17.7px;
             text-align: left;
             color: white;
             text-align: center;
@@ -78,11 +77,10 @@
 
 
     &__pro{
-        margin-top: 60px;
-        padding-bottom: 2.5rem;
+        padding-bottom: 2.5em;
         width: 80%;
-        margin-left: 10%;
-        border-radius: 15px;
+        margin: 60px auto;
+        border-radius: .9375rem;
         border: 1px solid #07ACE6;
         position: relative;
 
@@ -92,26 +90,23 @@
             h3{
                 transform: translate(15%, -20%);
                 font-family: Raleway;
-                font-size: 19px;
+                font-size: 1.1875em;
                 font-weight: 700;
-                line-height: 24px;
 
             }
 
             &__dollar{
                 transform: translate(25%, 0%);
                 font-family: 'Open Sans';
-                font-size: 46px;
+                font-size: 2.875em;
                 font-weight: 300;
-                line-height: 64px;
                 color: #07ACE6;
             }
 
             &__offer{
                 font-family: Raleway;
-                font-size: 12px;
+                font-size: .75em;
                 font-weight: 700;
-                line-height: 14.09px;
                 color: #13253B;
                 transform: translate(27%, 5%);
 
@@ -119,36 +114,36 @@
         }
 
         &__check{
-            margin-left: 15px;
+            margin-left: .9375em;
             width: 45%;
             display: inline-block;
             li{
                 transform: translate(0%, 80%);
-                line-height: 40px;
+                line-height: 2.5rem;
                 list-style: none;
                 font-family: 'Open Sans';
-                font-size: 14px;
+                font-size: .875em;
                 font-weight: 400;
 
             }
 
             img{
-                margin-right: 5px;
+                margin-right: .3125rem;
             }
         }
 
         &__buttom{
-            transform: translate(50%, 100%);
-            padding: 5% 20%;
-            border-radius: 23px;
+            transform: translate(45%, 130%);
+            padding: 15px 60px;
+            border-radius: 1.4375rem;
             background-color: #07ACE6;
             border: 0px;
         
 
             font-family: 'Open Sans';
-            font-size: 13px;
+            font-size: .8125em;
             font-weight: 700;
-            line-height: 17.7px;
+            line-height: 1.1062rem;
             text-align: left;
             color: white;
             text-align: center;
@@ -159,11 +154,10 @@
 
 
     &__premium{
-        margin-top: 60px;
-        padding-bottom: 2.5rem;
+        padding-bottom: 2.5em;
         width: 80%;
-        margin-left: 10%;
-        border-radius: 15px;
+        margin:60px auto;
+        border-radius: .9375em;
         border: 1px solid #55DFB4;
         position: relative;
 
@@ -175,60 +169,60 @@
             h3{
                 transform: translate(25%, -5%);
                 font-family: Raleway;
-                font-size: 19px;
+                font-size: 1.1875em;
                 font-weight: 700;
-                line-height: 24px;
+                line-height: 1.5rem;
 
             }
 
             &__dollar{
                 transform: translate(25%, 0%);
                 font-family: 'Open Sans';
-                font-size: 46px;
+                font-size: 2.875em;
                 font-weight: 300;
-                line-height: 64px;
+                line-height: 4rem;
                 color: #55DFB4;
             }
 
             &__offer{
                 font-family: Raleway;
-                font-size: 12px;
+                font-size: .75em;
                 font-weight: 700;
-                line-height: 14.09px;
+                line-height: .8806rem;
                 color: #13253B;
                 transform: translate(27%, 5%);
             }
         }
 
         &__check{
-            margin-left: 15px;
+            margin-left: .9375em;
             width: 45%;
             display: inline-block;
             li{
                 transform: translate(0%, 80%);
-                line-height: 40px;
+                line-height: 2.5rem;
                 list-style: none;
                 font-family: 'Open Sans';
-                font-size: 14px;
+                font-size: .875em;
                 font-weight: 400;
 
             }
             img{
-                margin-right: 5px;
+                margin-right: .3125em;
             }
         }
         &__buttom{
-            transform: translate(50%, 100%);
-            padding: 5% 20%;
-            border-radius: 23px;
+            transform: translate(45%, 130%);
+            padding: 15px 60px;
+            border-radius: 1.4375rem;
             background-color: #55DFB4;
-            border: 0px;
+            border: 0rem;
         
 
             font-family: 'Open Sans';
-            font-size: 13px;
+            font-size: .8125em;
             font-weight: 700;
-            line-height: 17.7px;
+            line-height: 1.1062rem;
             text-align: left;
             color: white;
             text-align: center;
@@ -238,17 +232,17 @@
     }
     &__premium:hover{
         transform: scale(110%);
-        box-shadow: 0 4px 6px #55DFB4;
+        box-shadow: 0 .25rem .375rem #55DFB4;
     }
     
     &__pro:hover{
         transform: scale(110%);
-        box-shadow: 0 4px 6px #07ACE6;
+        box-shadow: 0 .25rem .375rem #07ACE6;
     }
 
     &__basic:hover{
         transform: scale(110%);
-        box-shadow: 0 4px 6px #FB3B64;
+        box-shadow: 0 .25rem .375rem #FB3B64;
     }
 }
         //Pa el hover
@@ -257,17 +251,18 @@
 
 @media (min-width:1000px){
     .pricing{
+        height: auto;
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-around;
+        justify-content: space-between;
         &__tittle{
             width: 100%;
-            margin-top: 80px;
-            margin-bottom: 40px;
+            margin-top: 5rem;
+            margin-bottom: 2.5rem;
         }
 
         &--stilo{
-            margin-top:20px;
+            margin-top:1.25rem;
             display: flex;
             flex-flow: column nowrap;
             margin-left: 0%;
@@ -275,22 +270,26 @@
         }
 
         &--h3{
-            margin-top: 30px;
+            margin-top: 1.875rem;
             transform: translate(0%,0%);
             text-align: center;    
         }
         &__basic{
+            margin: 1.25rem auto 3.9rem auto;
             @extend .pricing--stilo;
+            //margin-left: auto;
+
+
             &__precio{
                 width: 100%;
                 h3{
                     @extend .pricing--h3;   
                 }
                 p{
-                    margin-top: 15px;
+                    margin-top: 25px;
                     transform: translate(0%,0%);
                     text-align: center;    
-                    margin-bottom: 50px;
+                    margin-bottom: 3.125rem;
                 }
             }
 
@@ -304,7 +303,7 @@
             }
 
             &__buttom{
-                transform: translate(60%,150%);
+                transform: translate(60%,140%);
                 padding: 5%;
                 width: 45%;
                 text-align: center;
@@ -319,24 +318,24 @@
                     @extend .pricing--h3;
                 }
                 &__dollar{
-                    margin-top: 15px;
+                    margin-top: .9375rem;
                     transform: translate(0%,0%);
                     text-align: center;    
-                    margin-bottom: 5px;
+                    margin-bottom: .3125rem;
                 }
 
                 &__offer{
-                    margin-top: 0px;
+                    margin-top: 0rem;
                     transform: translate(0%,0%);
                     text-align: center;    
-                    margin-bottom: 50px;
+                    margin-bottom: 3.125rem;
               }
             }   
 
             &__check{
                 width: 100%;
                 text-align: center;
-                margin-left: 0px;
+                margin-left: 0rem;
                 li{
                     transform: translate(0%,0%);
                 }
@@ -358,23 +357,23 @@
                     @extend .pricing--h3;    
                 }
                 &__dollar{
-                    margin-top: 15px;
+                    margin-top: .9375rem;
                     transform: translate(0%,0%);
                     text-align: center;    
-                    margin-bottom: 5px;
+                    margin-bottom: .3125rem;
                 }
 
                 &__offer{
-                    margin-top: 0px;
+                    margin-top: 0rem;
                     transform: translate(0%,0%);
                     text-align: center;    
-                    margin-bottom: 50px;
+                    margin-bottom: 3.125rem;
               }
             }
             &__check{
                 width: 100%;
                 text-align: center;
-                margin-left: 0px;
+                margin-left: 0rem;
                 li{
                     transform: translate(0%,0%);
                 }
