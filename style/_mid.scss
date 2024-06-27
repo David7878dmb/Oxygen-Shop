@@ -172,6 +172,7 @@
             align-items: center;
             justify-content: center;
             &__img{
+                margin-top: 2em;
                 align-items: center;
                 order:2;
                 transform: translate();
@@ -197,19 +198,20 @@
                 width: 45%;
                 h3{
                     order:1;
-                    padding-top: 3.125rem;
+                    padding-top: 2.425em;
+                    margin-left: 10px;
                 }
                 p{
                     order:1;
                     width: 75%;
                 }
                 hr{
-                    margin-top: .9375rem;
+                    margin-top: .9375em;
                     width: 58%;
                     display: flex;
-                    margin-left: 5%;
-                    margin-bottom:5rem ;
-                    border: .125rem solid red;
+                    margin-left: .625em;
+                    margin-bottom:5em ;
+                    border: 2px solid red;
                 }
             }
         }
@@ -237,7 +239,7 @@
                 &__phone2{
                     display: flex;
                     position:relative;
-                    padding-bottom: 1.25rem;
+                    padding-bottom: 1.25em;
                     transform: translate(0%,5%);
                 }
             }
@@ -250,48 +252,48 @@
                 }
                 p{
                     width: 80%;
-                    margin-top: 1.25rem;
+                    margin-top: 1.25em;
                 }
                 hr{
                     display:flex;
                     width: 60%;
-                    margin-left: 5%;
-                    margin-top: 1.25rem;
-                    border: .125rem solid #08A6E4;
+                    margin-left: .625em;
+                    margin-top: 1em;
+                    border: 2px solid #08A6E4;
                 }
             }
         }
 
         &__brand{
-            margin: 0 43px;
+            margin: 0 2.6875em;
             display: flex;
             flex-flow: row wrap;
             &__text{
                 width:40%;
                 h3{
-                    margin-top: 1.25rem;
+                    margin-top: 1.25em;
                     width: 60%;
                 }
                 p{
                     width:70%;
-                    margin-bottom: 1.25rem;
+                    margin-bottom: 1.25em;
                 }
                 hr{
                     display: flex;
-                    margin-bottom: 3.4375rem;
-                    border: .125rem solid #55DFB4;
-                    margin-left: 5%;
+                    margin-bottom: 3.4375em;
+                    border: 2px solid #55DFB4;
+                    margin-left: .9375em;
                     width: 55%;
                 }
             }
             &__trump{
                 height: auto;
-                margin-top:1.875rem;
+                margin-top:1.875em;
                 width:30%;
                 &__trumpet{
                     width: 80%;
                     transform: translate(10%,5%);
-                    margin-top: 1.25rem;
+                    margin-top: 1.25em;
                 }
             }
 

@@ -57,24 +57,24 @@
   .sell h2 {
     text-align: center;
     font-family: Raleway;
-    font-size: 49px;
+    font-size: 3.0625em;
     font-weight: 400;
-    line-height: 57px;
+    margin-bottom: 0.7em;
   }
   .sell p {
     font-family: "Open Sans";
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
-    line-height: 22px;
     text-align: center;
   }
   .sell__boton {
     display: flex;
     justify-content: center;
-    width: 100%;
     margin: 0 auto;
+    width: 100%;
   }
   .sell__boton button {
+    padding: 0 150px;
     margin-left: 0 auto;
   }
   .setup__movil {
@@ -82,7 +82,7 @@
   }
   .setup__laptop {
     display: flex;
-    margin: 0 0 35px 0;
+    margin: 0 0 2.1875rem 0;
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -103,8 +103,6 @@
     justify-content: center;
   }
   .sales h2 {
-    margin-left: 100px;
-    width: 100%;
     margin-top: 0%;
     text-align: center;
   }
@@ -254,6 +252,7 @@
     justify-content: center;
   }
   .mid__first__img {
+    margin-top: 2em;
     align-items: center;
     order: 2;
     transform: translate();
@@ -278,19 +277,20 @@
   }
   .mid__first__text h3 {
     order: 1;
-    padding-top: 3.125rem;
+    padding-top: 2.425em;
+    margin-left: 10px;
   }
   .mid__first__text p {
     order: 1;
     width: 75%;
   }
   .mid__first__text hr {
-    margin-top: 0.9375rem;
+    margin-top: 0.9375em;
     width: 58%;
     display: flex;
-    margin-left: 5%;
-    margin-bottom: 5rem;
-    border: 0.125rem solid red;
+    margin-left: 0.625em;
+    margin-bottom: 5em;
+    border: 2px solid red;
   }
   .mid__shop {
     display: flex;
@@ -317,7 +317,7 @@
   .mid__shop__img__phone2 {
     display: flex;
     position: relative;
-    padding-bottom: 1.25rem;
+    padding-bottom: 1.25em;
     transform: translate(0%, 5%);
   }
   .mid__shop__text {
@@ -329,17 +329,17 @@
   }
   .mid__shop__text p {
     width: 80%;
-    margin-top: 1.25rem;
+    margin-top: 1.25em;
   }
   .mid__shop__text hr {
     display: flex;
     width: 60%;
-    margin-left: 5%;
-    margin-top: 1.25rem;
-    border: 0.125rem solid #08A6E4;
+    margin-left: 0.625em;
+    margin-top: 1em;
+    border: 2px solid #08A6E4;
   }
   .mid__brand {
-    margin: 0 43px;
+    margin: 0 2.6875em;
     display: flex;
     flex-flow: row wrap;
   }
@@ -347,29 +347,29 @@
     width: 40%;
   }
   .mid__brand__text h3 {
-    margin-top: 1.25rem;
+    margin-top: 1.25em;
     width: 60%;
   }
   .mid__brand__text p {
     width: 70%;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.25em;
   }
   .mid__brand__text hr {
     display: flex;
-    margin-bottom: 3.4375rem;
-    border: 0.125rem solid #55DFB4;
-    margin-left: 5%;
+    margin-bottom: 3.4375em;
+    border: 2px solid #55DFB4;
+    margin-left: 0.9375em;
     width: 55%;
   }
   .mid__brand__trump {
     height: auto;
-    margin-top: 1.875rem;
+    margin-top: 1.875em;
     width: 30%;
   }
   .mid__brand__trump__trumpet {
     width: 80%;
     transform: translate(10%, 5%);
-    margin-top: 1.25rem;
+    margin-top: 1.25em;
   }
 }
 .pricing__tittle {
@@ -594,7 +594,7 @@
     margin-top: 1.25rem;
     display: flex;
     flex-flow: column nowrap;
-    margin-left: 0%;
+    margin-left: 0;
     width: 25%;
   }
   .pricing--h3, .pricing__premium__precio h3, .pricing__pro__precio h3, .pricing__basic__precio h3 {
@@ -606,16 +606,16 @@
     margin: 1.25rem auto 3.9rem auto;
   }
   .pricing__basic__precio {
-    width: 100%;
+    margin: 0 auto;
   }
   .pricing__basic__precio p {
-    margin-top: 25px;
+    margin-top: 1.5625rem;
     transform: translate(0%, 0%);
     text-align: center;
     margin-bottom: 3.125rem;
   }
   .pricing__basic__check {
-    width: 100%;
+    margin: 0 auto;
   }
   .pricing__basic__check li {
     text-align: center;
@@ -623,12 +623,12 @@
   }
   .pricing__basic__buttom {
     transform: translate(60%, 140%);
-    padding: 5%;
+    padding: 1.0625rem 2.5rem;
     width: 45%;
     text-align: center;
   }
   .pricing__pro__precio {
-    width: 100%;
+    margin: 0 auto;
   }
   .pricing__pro__precio__dollar {
     margin-top: 0.9375rem;
@@ -643,21 +643,20 @@
     margin-bottom: 3.125rem;
   }
   .pricing__pro__check {
-    width: 100%;
+    margin: 0 auto;
     text-align: center;
-    margin-left: 0rem;
   }
   .pricing__pro__check li {
     transform: translate(0%, 0%);
   }
   .pricing__pro__buttom {
-    transform: translate(65%, 120%);
-    padding: 5%;
+    transform: translate(65%, 130%);
+    padding: 1.0625rem 2.5rem;
     width: 45%;
     text-align: center;
   }
   .pricing__premium__precio {
-    width: 100%;
+    margin: 0 auto;
   }
   .pricing__premium__precio__dollar {
     margin-top: 0.9375rem;
@@ -672,16 +671,15 @@
     margin-bottom: 3.125rem;
   }
   .pricing__premium__check {
-    width: 100%;
+    margin: 0 auto;
     text-align: center;
-    margin-left: 0rem;
   }
   .pricing__premium__check li {
     transform: translate(0%, 0%);
   }
   .pricing__premium__buttom {
     transform: translate(65%, 120%);
-    padding: 5%;
+    padding: 1.0625rem 2.5rem;
     width: 45%;
     text-align: center;
   }
@@ -694,20 +692,17 @@
   font-family: Raleway;
   font-size: 2.5em;
   font-weight: 400;
-  line-height: 2.935rem;
 }
 .question__left__call {
   font-family: "Open Sans";
   font-size: 1em;
   font-weight: 400;
-  line-height: 1.375rem;
   text-align: left;
 }
 .question__left__mail p {
   font-family: "Open Sans";
   font-size: 1em;
   font-weight: 600;
-  line-height: 1.375rem;
   text-align: left;
   color: #A5A5A5;
   transform: translate(10%, -130%);
@@ -719,7 +714,6 @@
   font-family: "Open Sans";
   font-size: 1em;
   font-weight: 600;
-  line-height: 1.375rem;
   text-align: left;
   color: #A5A5A5;
   transform: translate(10%, -130%);
@@ -746,8 +740,8 @@
   position: relative;
 }
 .question__form__checkbox__check {
-  width: 24px;
-  height: 24px;
+  width: 1.5rem;
+  height: 1.5rem;
   display: inline-block;
   width: 10%;
   vertical-align: top;
@@ -784,7 +778,7 @@
   box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 1000px) {
   .question {
     margin-top: 10em;
     display: flex;
@@ -800,26 +794,24 @@
     font-family: Raleway;
     font-size: 3.0625rem;
     font-weight: 400;
-    line-height: 2.935rem;
     text-align: left;
   }
   .question__left__call {
-    margin-top: 1.25rem;
-    margin-left: 0%;
+    margin-top: 1.25em;
   }
   .question__form {
     margin-top: 0rem;
     width: 38%;
   }
   .question__form__checkbox {
-    margin-left: 0%;
+    margin-left: 0;
   }
   .question__form__checkbox__text {
     width: 70%;
   }
   .question__form__button {
     transform: translate(100%, 0%);
-    padding: 3.5%;
+    padding: 1.25em 1.875em;
     width: 40%;
   }
 }
@@ -878,7 +870,7 @@
 .header {
   width: 100%;
   display: inline-block;
-  box-shadow: 0 0.4375rem 0.375rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 7px 6px rgba(0, 0, 0, 0.1);
 }
 .header__1 {
   display: inline-block;
@@ -917,34 +909,31 @@
     display: none;
   }
   .header__h0 {
-    width: 20%;
     display: inline-block;
     font-family: Raleway;
     font-size: 2rem;
     font-weight: 300;
-    line-height: 2.3125rem;
     text-align: left;
     color: #08A6E4;
-    margin-top: 0.625rem;
-    margin-left: 9.375rem;
-    padding-bottom: 0.625rem;
+    margin-top: 0.625em;
+    margin-left: 4.375em;
+    padding-bottom: 0.625em;
   }
   .header__ul {
-    margin-left: 31%;
+    text-align: right;
     display: flex;
     flex-flow: row nowrap;
     justify-content: end;
     align-items: center;
-    width: 50%;
+    margin-left: 600px;
   }
   .header__ul__li {
-    margin-right: 5rem;
+    margin-right: 5em;
     display: flex;
     font-family: "Open Sans";
     font-size: 0.6875rem;
     font-weight: 700;
-    line-height: 0.9375rem;
-    letter-spacing: 0.205rem;
+    letter-spacing: 0.205em;
     text-align: center;
     color: #A5A5A5;
   }
@@ -1064,41 +1053,41 @@
   .icon {
     display: flex;
     justify-content: center;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.5em;
   }
   .icon__daily {
+    margin-left: 0;
     display: inline-block;
     transform: translate(0%, 0%);
   }
   .icon__eyes {
     display: inline-block;
     transform: translate(0%, 14%);
+    margin-top: 0rem;
   }
   .icon__eyes p {
     width: 60%;
-    margin-top: 1.25rem;
-    margin-left: 1.5625rem;
+    margin-top: 0.75em;
+    margin-left: 1.5625em;
     font-family: Raleway;
     font-size: 1rem;
     font-weight: 400;
-    line-height: 1.1875rem;
     text-align: center;
     color: #A5A5A5;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.25em;
   }
   .icon__post {
     display: inline-block;
     transform: translate(0%, 11%);
   }
   .icon__post p {
-    margin-left: 1.5625rem;
+    margin-left: 1.5625em;
     width: 60%;
-    margin-top: 0.75rem;
-    margin-bottom: 2.5rem;
+    margin-top: 0.75em;
+    margin-bottom: 2.5em;
     font-family: Raleway;
     font-size: 1.0625rem;
     font-weight: 400;
-    line-height: 1.25rem;
     text-align: center;
     color: #A5A5A5;
   }

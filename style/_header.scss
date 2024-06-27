@@ -1,7 +1,7 @@
 .header{    
     width: 100%;
     display: inline-block;  
-    box-shadow: 0 .4375rem .375rem rgba(0, 0, 0, 0.1);  
+    box-shadow: 0 7px 6px rgba(0, 0, 0, 0.1);  
     &__1{
         display: inline-block ;
         font-family: Raleway;
@@ -44,33 +44,31 @@
         }
 
         &__h0{
-            width: 20%;
+
             display: inline-block;
             font-family: Raleway;
             font-size: 2rem;
             font-weight: 300;
-            line-height: 2.3125rem;
             text-align: left;
             color: #08A6E4;
-            margin-top: .625rem;
-            margin-left: 9.375rem;
-            padding-bottom: .625rem;
+            margin-top: .625em;
+            margin-left: 4.375em;
+            padding-bottom: .625em;
         }
         &__ul{
-            margin-left: 31%;
+            text-align: right;
             display: flex;
             flex-flow: row nowrap;
             justify-content: end;
             align-items: center; 
-            width: 50%;
+            margin-left: 600px;
             &__li{
-                margin-right: 5rem; 
+                margin-right: 5em; 
                 display: flex;
                 font-family: 'Open Sans';
                 font-size: .6875rem;
                 font-weight: 700;
-                line-height: .9375rem;
-                letter-spacing: .205rem;
+                letter-spacing: .205em;
                 text-align: center;
                 color: #A5A5A5;
             }
