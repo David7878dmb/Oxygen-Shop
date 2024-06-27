@@ -265,7 +265,7 @@
             margin-top:1.25rem;
             display: flex;
             flex-flow: column nowrap;
-            margin-left: 0%;
+            margin-left: 0;
             width: 25%;
         }
 
@@ -281,12 +281,12 @@
 
 
             &__precio{
-                width: 100%;
+                margin: 0 auto;
                 h3{
                     @extend .pricing--h3;   
                 }
                 p{
-                    margin-top: 25px;
+                    margin-top: 1.5625rem;
                     transform: translate(0%,0%);
                     text-align: center;    
                     margin-bottom: 3.125rem;
@@ -294,8 +294,7 @@
             }
 
             &__check{
-                width: 100%;
-
+                margin: 0 auto;
                 li{
                     text-align: center;
                     transform: translate(0%,0%);
@@ -304,7 +303,7 @@
 
             &__buttom{
                 transform: translate(60%,140%);
-                padding: 5%;
+                padding: 1.0625rem 2.5rem;
                 width: 45%;
                 text-align: center;
             }
@@ -313,7 +312,7 @@
         &__pro{
             @extend .pricing--stilo;
             &__precio{
-                width: 100%;
+                margin: 0 auto;
                 h3{
                     @extend .pricing--h3;
                 }
@@ -333,17 +332,16 @@
             }   
 
             &__check{
-                width: 100%;
+                margin: 0 auto;
                 text-align: center;
-                margin-left: 0rem;
                 li{
                     transform: translate(0%,0%);
                 }
             }
 
             &__buttom{
-                transform: translate(65%,120%);
-                padding: 5%;
+                transform: translate(65%,130%);
+                padding: 1.0625rem 2.5rem;
                 width: 45%;
                 text-align: center;
             }
@@ -352,7 +350,7 @@
         &__premium{
             @extend .pricing--stilo;
             &__precio{
-                width: 100%;
+                margin: 0 auto;
                 h3{
                     @extend .pricing--h3;    
                 }
@@ -371,9 +369,8 @@
               }
             }
             &__check{
-                width: 100%;
+                margin: 0 auto;
                 text-align: center;
-                margin-left: 0rem;
                 li{
                     transform: translate(0%,0%);
                 }
@@ -381,7 +378,7 @@
 
             &__buttom{
                 transform: translate(65%,120%);
-                padding: 5%;
+                padding: 1.0625rem 2.5rem;
                 width: 45%;
                 text-align: center;
             }
