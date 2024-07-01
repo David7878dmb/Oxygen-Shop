@@ -239,12 +239,9 @@
 }
 .mid__brand__trump__trumpet {
   padding-top: 1.25rem;
-  padding-right: 3.125em;
-  width: 350px;
-  height: 250px;
 }
 
-@media (min-width: 62.5rem) {
+@media (min-width: 1000px) {
   .mid__first {
     display: flex;
     flex-flow: row wrap;
@@ -699,24 +696,34 @@
   font-weight: 400;
   text-align: left;
 }
+.question__left__mail {
+  display: inline-block;
+  margin-bottom: 10px;
+}
 .question__left__mail p {
+  display: inline-block;
   font-family: "Open Sans";
   font-size: 1em;
   font-weight: 600;
   text-align: left;
   color: #A5A5A5;
-  transform: translate(10%, -130%);
+  transform: translate(0%, -30%);
 }
 .question__left__mail img {
+  display: inline-block;
   margin-top: 10%;
 }
 .question__left__phone p {
+  display: inline-block;
   font-family: "Open Sans";
   font-size: 1em;
   font-weight: 600;
   text-align: left;
   color: #A5A5A5;
-  transform: translate(10%, -130%);
+  transform: translate(0%, -30%);
+}
+.question__left__phone img {
+  display: inline-block;
 }
 .question__form {
   margin-top: 2.5rem;
