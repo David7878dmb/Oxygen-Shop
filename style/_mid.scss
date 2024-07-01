@@ -156,15 +156,12 @@
 
             &__trumpet{
                 padding-top: 1.25rem;
-                padding-right: 3.125em;
-                width: 350px;
-                height: 250px;
             }
         }
     }
 }
 
-@media (min-width:62.5rem){
+@media (min-width:1000px){
     .mid{
         &__first{
             display: flex;
