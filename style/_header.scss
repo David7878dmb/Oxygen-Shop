@@ -1,7 +1,12 @@
+
+
 .header{    
+    position: fixed;
+    top: 0;
     width: 100%;
     display: inline-block;  
     box-shadow: 0 7px 6px rgba(0, 0, 0, 0.1);  
+    background-color: white;
     &__1{
         display: inline-block ;
         font-family: Raleway;
@@ -17,21 +22,58 @@
         display: none;
     }
 
-    img{
+    &__burger{
         padding-left: 5.62em;
         display: inline;
         text-align: right;
     }
 
+    &__close{
+        display: none;
+    }
+
     &__ul{
         display: none;
-        &__li{
-            display: none;
+    }
+    //Menu hamburguesa
+    &__burger.ocult{
+        display: none;
+    }
+
+    &__close.visible{
+        padding-left: 5.62em;
+        display: inline;
+        text-align: right;
+    }
+
+    &__ul.visible{
+        background-color: white;
+        display: block;
+        margin-top: 1.5em;
+        margin-bottom: 16px;
+        li{
+            margin-left: 3.0625em;
+            list-style: none;
+            font-family: 'Open Sans';
+            font-size: .6875rem;
+            font-weight: 700;
+            letter-spacing: .105rem;
+            color: #A5A5A5;
+            padding-bottom: 16px;
+        }
+        li:hover{
+            color: black;
         }
     }
+
+    
+        li{
+            color: black;
+        }
+
 }
 
-@media screen and (min-width: 62.5rem) {
+@media screen and (min-width: 1000px) {
     .header{
         display: flex;
         flex-flow: row nowrap;
