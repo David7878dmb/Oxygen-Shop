@@ -4,6 +4,7 @@
   margin-right: 2.0625em;
 }
 .sell h2 {
+  padding-top: 1em;
   margin-bottom: 1.25em;
   font-family: Raleway;
   font-size: 2.1875rem;
@@ -881,6 +882,7 @@
   display: inline-block;
   box-shadow: 0 7px 6px rgba(0, 0, 0, 0.1);
   background-color: white;
+  z-index: 5;
 }
 .header__1 {
   display: inline-block;
@@ -936,6 +938,16 @@
 .header li {
   color: black;
 }
+.header__scroll {
+  position: fixed;
+  width: 100%;
+  height: 1em;
+}
+.header .scrollbar {
+  width: 0%;
+  height: 100%;
+  background-color: #08A6E4;
+}
 
 @media screen and (min-width: 1000px) {
   .header {
@@ -983,6 +995,17 @@
     text-decoration-color: #08A6E4;
     text-underline-offset: 0.9375rem;
     text-decoration-thickness: 0.125rem;
+  }
+  .header__scroll {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 1em;
+  }
+  .header .scrollbar {
+    width: 0%;
+    height: 100%;
+    background-color: #08A6E4;
   }
 }
 .icon__daily {
@@ -1140,6 +1163,21 @@
 
 body {
   min-width: 320px;
+}
+
+.top {
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background-image: url(./style/top/top.jpg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: none;
+  z-index: 5;
 }
 
 /*# sourceMappingURL=style.css.map */
