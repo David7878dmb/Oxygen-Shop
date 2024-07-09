@@ -1,17 +1,26 @@
 let totop = document.getElementById('top');
 totop.style.display ='none';
 
-window.addEventListener('scroll', () => {
-    if(this.scrollY > 500){
-        totop.style.display = 'block';
-    }else{
-        toTop.style.display = 'none';
-    }
-})
 
-totop.onclick = function () {
+let scrollTimeout;
+
+window.addEventListener('scroll', () => {
+    if (scrollTimeout) {
+        clearTimeout(scrollTimeout);
+    }
+
+    scrollTimeout = setTimeout(() => {
+        if (window.scrollY > 500) {
+            totop.style.display = 'block';
+        } else {
+            totop.style.display = 'none';
+        }
+    }, 200);
+});
+
+totop.addEventListener('click', () => {
     window.scrollTo({
         top: 0,
         behavior: 'smooth'
     })
-}
+})
