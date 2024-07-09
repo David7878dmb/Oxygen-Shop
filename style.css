@@ -743,25 +743,33 @@
   width: 90%;
   margin-bottom: 1.875em;
 }
+.question__form .fallo {
+  border-bottom: 2px solid red;
+}
 .question__form__checkbox {
   display: inline;
   position: relative;
 }
 .question__form__checkbox__check {
-  width: 1.5rem;
-  height: 1.5rem;
+  width: 1rem;
+  height: 2rem;
   display: inline-block;
   width: 10%;
   vertical-align: top;
-  border-bottom: 0.5008px solid #95989A;
-  accent-color: white;
+  appearance: none;
+  border: 2px solid gray;
+  background: transparent;
 }
-.question__form__checkbox .question__form__checkbox__check:checked {
-  background-image: url(./form/check.png);
-  border: none;
+.question__form__checkbox__check:checked {
+  background-image: url(./style/form/check.png);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  margin: 0rem auto;
+  background-position: center;
+  background-size: 1rem;
 }
-.question__form__checkbox__check:disabled {
-  background-color: white;
+.question__form__checkbox .fallo2 {
+  border: 2px solid red;
 }
 .question__form__checkbox__text {
   display: inline-block;
@@ -813,6 +821,25 @@
   }
   .question__form__checkbox {
     margin-left: 0;
+  }
+  .question__form__checkbox__check {
+    border-radius: 2px;
+    padding: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    margin-left: 1.9em;
+    appearance: none;
+    border: 2px solid gray;
+    background: transparent;
+  }
+  .question__form__checkbox__check:checked {
+    border-radius: 2px;
+    padding: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+    margin-left: 1.9em;
   }
   .question__form__checkbox__text {
     width: 70%;

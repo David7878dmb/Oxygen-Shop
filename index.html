@@ -198,18 +198,19 @@
                 </div>
             </div>
 
-            <form class="question__form">
+            <form class="question__form" id="form">
                 <p class="question__form__ne">NAME</p>
-                <input class="question__form__input" type="text" name="nombre">
+                <input class="question__form__input" type="text" name="nombre" id="nombre">
+                
                 <p class="question__form__ne">EMAIL</p>
-                <input class="question__form__input" type="email" name="email">
+                <input class="question__form__input" type="email" name="email" id="email">
 
                 <div class="question__form__checkbox">
-                    <input class="question__form__checkbox__check" type="checkbox" name="check" checked="checked">
+                    <input class="question__form__checkbox__check" type="checkbox" name="check" id="check">
                     <p class="question__form__checkbox__text">I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</p>
                 </div>
 
-                <button class="question__form__button">Send</button>
+                <button type="submit" class="question__form__button" >Send</button>
             </form>
         </section>
 
@@ -230,5 +231,7 @@
 <script src="./js/header.js"></script>
 <script src="js/scroll_bar.js"></script>
 <script src="js/top.js"></script>
+<script src="js/validation.js"></script>
+<script src="js/fetch.js"></script>
 </body>
 </html>
