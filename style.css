@@ -1182,6 +1182,116 @@
     color: #A5A5A5;
   }
 }
+.pop {
+  display: none;
+  background-color: white;
+  margin-top: 4rem;
+  z-index: 100;
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 1.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  border: 0.1em solid #EDC1FF;
+  box-shadow: 10px 10px 14px 10px #EDC1FF;
+  margin-top: 10rem;
+}
+.pop__close {
+  font-size: 1em;
+  position: absolute;
+  font-family: "Open Sans";
+  font-weight: 400;
+  margin-left: 17rem;
+  transform: translate(70%, -50%);
+  background-color: transparent;
+  border: none;
+}
+.pop__tittle {
+  text-align: center;
+  font-family: Raleway;
+  font-size: 2.5em;
+  font-weight: 400;
+}
+.pop__form {
+  display: block;
+}
+.pop__form__p {
+  padding-top: 1rem;
+  font-family: "Open Sans";
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+}
+.pop__form__email {
+  display: block;
+  font-family: "Open Sans";
+  font-size: 1em;
+  font-weight: 400;
+  margin: 0 auto;
+  border: none;
+  border-bottom: 2px solid #95989A;
+  width: 90%;
+  margin-bottom: 1em;
+}
+.pop__form__submit {
+  padding: 10px 30px;
+  border-radius: 2.5rem;
+  background-color: #C849FC;
+  border: none;
+  font-family: "Open Sans";
+  font-size: 0.8125em;
+  font-weight: 700;
+  color: white;
+  box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
+  transform: translate(100%, 0%);
+}
+.pop__form .fallo {
+  border-bottom: 2px solid red;
+}
+
+.visible {
+  display: block;
+}
+
+@media (min-width: 1000px) {
+  .pop {
+    width: 40%;
+    height: 20rem;
+  }
+  .pop__close {
+    font-size: 1.5em;
+    position: absolute;
+    font-family: "Open Sans";
+    font-weight: 400;
+    margin-left: 36rem;
+    transform: translate(70%, -50%);
+    background-color: transparent;
+    border: none;
+  }
+  .pop__tittle {
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+  }
+  .pop__form__submit {
+    padding: 20px 85px;
+    border-radius: 2.5rem;
+    background-color: #C849FC;
+    border: none;
+    font-family: "Open Sans";
+    font-size: 0.8125em;
+    font-weight: 700;
+    color: white;
+    box-shadow: 5px 10px 14px 0px rgba(7, 172, 230, 0.2901960784);
+    transform: translate(100%, 10%);
+  }
+  .pop__form__p {
+    margin-bottom: 1rem;
+  }
+  .pop__form__email {
+    margin-bottom: 4rem;
+  }
+}
 * {
   box-sizing: border-box;
   margin: 0;
