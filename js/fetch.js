@@ -1,5 +1,4 @@
-
-document.event.target.target.elements['form'],addEventListener('submit', (event) =>{
+document.getElementById('form'),addEventListener('submit', (event) =>{
     event.preventDefault();
 
     const nombre = event.target.elements["nombre"];
@@ -17,11 +16,13 @@ document.event.target.target.elements['form'],addEventListener('submit', (event)
         },
         body: JSON.stringify(formData)
     })
+
     .then(response => response.json())
     .then(data => {
         console.log('Success:', data);
         alert('Datos enviados exitosamente');
     })
+
     .catch((error) => {
         console.error('Error:', error);
         alert('Error al enviar los datos');
