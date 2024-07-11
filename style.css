@@ -1252,6 +1252,9 @@
 
 .visible {
   display: block;
+  position: fixed;
+  margin: 0 auto;
+  margin-left: 10%;
 }
 
 @media (min-width: 1000px) {
