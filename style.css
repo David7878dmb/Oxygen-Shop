@@ -370,6 +370,22 @@
     margin-top: 1.25em;
   }
 }
+.pricing--buttonstyle, .pricing__button__GBP, .pricing__button__USD, .pricing__button__EUR {
+  padding: 10px 30px;
+  border-radius: 1.4375rem;
+  background-color: #F99F00;
+  border: 0rem;
+  font-family: "Open Sans";
+  font-size: 0.7125em;
+  font-weight: 700;
+  text-align: left;
+  color: white;
+  text-align: center;
+}
+.pricing--buttonstyle:hover, .pricing__button__GBP:hover, .pricing__button__USD:hover, .pricing__button__EUR:hover {
+  transform: scale(105%);
+  box-shadow: 0 0.25rem 0.255rem #F99F00;
+}
 .pricing__tittle {
   margin-top: 1.3em;
   font-family: "Raleway";
@@ -377,6 +393,10 @@
   font-weight: 400;
   text-align: center;
   margin-bottom: 1em;
+}
+.pricing__button {
+  text-align: center;
+  margin-bottom: 2em;
 }
 .pricing__basic {
   margin-top: 0.9375em;
@@ -599,6 +619,26 @@
     margin-top: 1.875rem;
     transform: translate(0%, 0%);
     text-align: center;
+  }
+  .pricing--buttonstylelaptop, .pricing__button__GBP, .pricing__button__USD, .pricing__button__EUR {
+    padding: 20px 70px;
+    border-radius: 1.4375rem;
+    background-color: #07ACE6;
+    border: 0rem;
+    font-family: "Open Sans";
+    font-size: 1em;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+  }
+  .pricing--buttonstylelaptop:hover, .pricing__button__GBP:hover, .pricing__button__USD:hover, .pricing__button__EUR:hover {
+    transform: scale(110%);
+    box-shadow: 0 0.15rem 0.255rem #07ACE6;
+  }
+  .pricing__button {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
   }
   .pricing__basic {
     margin: 1.25rem auto 3.9rem auto;
@@ -925,6 +965,7 @@
   display: none;
 }
 .header__burger {
+  background-color: white;
   padding-left: 5.62em;
   display: inline;
   text-align: right;
@@ -944,12 +985,17 @@
   text-align: right;
 }
 .header__ul.visible {
+  z-index: 5;
   background-color: white;
   display: block;
-  margin-top: 1.5em;
+  margin-top: 1em;
+  padding-top: 1em;
   margin-bottom: 16px;
+  width: 100%;
 }
 .header__ul.visible li {
+  width: 100%;
+  background-color: white;
   margin-left: 3.0625em;
   list-style: none;
   font-family: "Open Sans";
@@ -1250,7 +1296,7 @@
   border-bottom: 2px solid red;
 }
 
-.visible {
+.visiblepop {
   display: block;
   position: fixed;
   margin: 0 auto;
