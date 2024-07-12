@@ -1,4 +1,24 @@
 .pricing{
+    &--buttonstyle{
+        padding: 10px 30px;
+        border-radius: 1.4375rem;
+        background-color: #F99F00;
+        border: 0rem;
+    
+
+        font-family: 'Open Sans';
+        font-size: .7125em;
+        font-weight: 700;
+        text-align: left;
+        color: white;
+        text-align: center;
+    }
+
+    &--buttonstyle:hover{
+        transform: scale(105%);
+        box-shadow: 0 .25rem .255rem #F99F00;
+    }
+
     &__tittle{
         margin-top: 1.3em;
         font-family: 'Raleway';
@@ -7,6 +27,24 @@
         text-align: center;
         margin-bottom: 1em;
     }
+
+    &__button{
+        text-align: center;
+        margin-bottom: 2em;
+
+        &__EUR{
+            @extend .pricing--buttonstyle;
+        }
+
+        &__USD{
+            @extend .pricing--buttonstyle;
+        }
+
+        &__GBP{
+            @extend .pricing--buttonstyle;
+        }
+    }
+
     &__basic{
         margin-top: .9375em;
         padding-bottom: 2.5em;
@@ -245,10 +283,7 @@
         box-shadow: 0 .25rem .375rem #FB3B64;
     }
 }
-        //Pa el hover
-        //box-shadow: #07ACE6;
-        //transform: scale();
-
+        
 @media (min-width:1000px){
     .pricing{
         height: auto;
@@ -274,6 +309,47 @@
             transform: translate(0%,0%);
             text-align: center;    
         }
+
+        &--buttonstylelaptop{
+            padding: 20px 70px;
+            border-radius: 1.4375rem;
+            background-color: #07ACE6;
+            border: 0rem;
+        
+
+            font-family: 'Open Sans';
+            font-size: 1em;
+            font-weight: 700;
+            color: white;
+            text-align: center;
+        }
+
+        &--buttonstylelaptop:hover{
+            transform: scale(110%);
+            box-shadow: 0 .15rem .255rem #07ACE6;
+        }
+        
+
+        &__button{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+
+            &__EUR{
+                @extend .pricing--buttonstylelaptop;
+            }
+    
+            &__USD{
+                @extend .pricing--buttonstylelaptop;
+            }
+    
+            &__GBP{
+                @extend .pricing--buttonstylelaptop;
+            }
+            
+        }
+
+
         &__basic{
             margin: 1.25rem auto 3.9rem auto;
             @extend .pricing--stilo;

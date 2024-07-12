@@ -22,6 +22,7 @@
     }
 
     &__burger{
+        background-color: white;
         padding-left: 5.62em;
         display: inline;
         text-align: right;
@@ -46,11 +47,16 @@
     }
 
     &__ul.visible{
+        z-index: 5;
         background-color: white;
         display: block;
-        margin-top: 1.5em;
+        margin-top: 1em;
+        padding-top: 1em;
         margin-bottom: 16px;
+        width: 100%;
         li{
+            width: 100%;
+            background-color: white;
             margin-left: 3.0625em;
             list-style: none;
             font-family: 'Open Sans';

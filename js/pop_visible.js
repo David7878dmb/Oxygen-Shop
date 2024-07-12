@@ -1,21 +1,19 @@
 document.addEventListener("DOMContentLoaded", function() {
     const modal = document.getElementById("pop");
-    const close = document.getElementById("close");
+    const popclose = document.getElementById("popclose");
     const form = document.getElementById("popform");
 
 
     //Mostrar modal
-
     function showModal(){
         if (!sessionStorage.getItem("modalClosed")){
-            modal.classList.add("visible");
+            modal.classList.add("visiblepop");
         }
     }
 
     //Funcion de cerrar y almacenar en el session storage
-
     function closeModalFunction() {
-        modal.classList.remove("visible");
+        modal.classList.remove("visiblepop");
         sessionStorage.setItem("modalClosed","true");
     }
 
@@ -24,26 +22,25 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(showModal, 5000);
 
     //Mostart modal al 25%
-    window.onscroll = function(){
+    window.addEventListener ("scroll" , function(){
         if ((window.innerHeight + window.scrollY) >= (document.body.offsetHeight * 0.25)) {
             showModal();
         }
-    }
+    })
     
     //Cerrar modal
-    close.onclick = function() {
+    popclose.addEventListener ("onclick", function() {
         closeModalFunction();
-    }
+    })
 
     //Cerrar modal click fuera
-    window.onclick = function(event) {
+    window.addEventListener ("onclick", function(event) {
         if (event.target === modal) {
             closeModalFunction();
         }
-    }
+    })
 
     //Cerrar modal con ESC
-
     document.addEventListener("keydown", function(event){
         if (event.key === "Escape") {
             closeModalFunction();
