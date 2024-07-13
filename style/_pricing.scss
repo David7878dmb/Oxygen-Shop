@@ -32,17 +32,10 @@
         text-align: center;
         margin-bottom: 2em;
 
-        &__EUR{
+        &__money{
             @extend .pricing--buttonstyle;
         }
 
-        &__USD{
-            @extend .pricing--buttonstyle;
-        }
-
-        &__GBP{
-            @extend .pricing--buttonstyle;
-        }
     }
 
     &__basic{
@@ -335,18 +328,8 @@
             display: flex;
             justify-content: space-evenly;
 
-            &__EUR{
-                @extend .pricing--buttonstylelaptop;
-            }
-    
-            &__USD{
-                @extend .pricing--buttonstylelaptop;
-            }
-    
-            &__GBP{
-                @extend .pricing--buttonstylelaptop;
-            }
-            
+            &__money{
+                @extend .pricing--buttonstylelaptop;            
         }
 
 
@@ -463,4 +446,4 @@
 
         
     }
-}
+}}

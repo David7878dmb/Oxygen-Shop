@@ -370,7 +370,7 @@
     margin-top: 1.25em;
   }
 }
-.pricing--buttonstyle, .pricing__button__GBP, .pricing__button__USD, .pricing__button__EUR {
+.pricing--buttonstyle, .pricing__button__money {
   padding: 10px 30px;
   border-radius: 1.4375rem;
   background-color: #F99F00;
@@ -382,7 +382,7 @@
   color: white;
   text-align: center;
 }
-.pricing--buttonstyle:hover, .pricing__button__GBP:hover, .pricing__button__USD:hover, .pricing__button__EUR:hover {
+.pricing--buttonstyle:hover, .pricing__button__money:hover {
   transform: scale(105%);
   box-shadow: 0 0.25rem 0.255rem #F99F00;
 }
@@ -608,19 +608,19 @@
     margin-top: 5rem;
     margin-bottom: 2.5rem;
   }
-  .pricing--stilo, .pricing__premium, .pricing__pro, .pricing__basic {
+  .pricing--stilo, .pricing__button__premium, .pricing__button__pro, .pricing__button__basic {
     margin-top: 1.25rem;
     display: flex;
     flex-flow: column nowrap;
     margin-left: 0;
     width: 25%;
   }
-  .pricing--h3, .pricing__premium__precio h3, .pricing__pro__precio h3, .pricing__basic__precio h3 {
+  .pricing--h3, .pricing__button__premium__precio h3, .pricing__button__pro__precio h3, .pricing__button__basic__precio h3 {
     margin-top: 1.875rem;
     transform: translate(0%, 0%);
     text-align: center;
   }
-  .pricing--buttonstylelaptop, .pricing__button__GBP, .pricing__button__USD, .pricing__button__EUR {
+  .pricing--buttonstylelaptop, .pricing__button__money {
     padding: 20px 70px;
     border-radius: 1.4375rem;
     background-color: #07ACE6;
@@ -631,7 +631,7 @@
     color: white;
     text-align: center;
   }
-  .pricing--buttonstylelaptop:hover, .pricing__button__GBP:hover, .pricing__button__USD:hover, .pricing__button__EUR:hover {
+  .pricing--buttonstylelaptop:hover, .pricing__button__money:hover {
     transform: scale(110%);
     box-shadow: 0 0.15rem 0.255rem #07ACE6;
   }
@@ -640,82 +640,82 @@
     display: flex;
     justify-content: space-evenly;
   }
-  .pricing__basic {
+  .pricing__button__basic {
     margin: 1.25rem auto 3.9rem auto;
   }
-  .pricing__basic__precio {
+  .pricing__button__basic__precio {
     margin: 0 auto;
   }
-  .pricing__basic__precio p {
+  .pricing__button__basic__precio p {
     margin-top: 1.5625rem;
     transform: translate(0%, 0%);
     text-align: center;
     margin-bottom: 3.125rem;
   }
-  .pricing__basic__check {
+  .pricing__button__basic__check {
     margin: 0 auto;
   }
-  .pricing__basic__check li {
+  .pricing__button__basic__check li {
     text-align: center;
     transform: translate(0%, 0%);
   }
-  .pricing__basic__buttom {
+  .pricing__button__basic__buttom {
     transform: translate(60%, 140%);
     padding: 1.0625rem 2.5rem;
     width: 45%;
     text-align: center;
   }
-  .pricing__pro__precio {
+  .pricing__button__pro__precio {
     margin: 0 auto;
   }
-  .pricing__pro__precio__dollar {
+  .pricing__button__pro__precio__dollar {
     margin-top: 0.9375rem;
     transform: translate(0%, 0%);
     text-align: center;
     margin-bottom: 0.3125rem;
   }
-  .pricing__pro__precio__offer {
+  .pricing__button__pro__precio__offer {
     margin-top: 0rem;
     transform: translate(0%, 0%);
     text-align: center;
     margin-bottom: 3.125rem;
   }
-  .pricing__pro__check {
+  .pricing__button__pro__check {
     margin: 0 auto;
     text-align: center;
   }
-  .pricing__pro__check li {
+  .pricing__button__pro__check li {
     transform: translate(0%, 0%);
   }
-  .pricing__pro__buttom {
+  .pricing__button__pro__buttom {
     transform: translate(65%, 130%);
     padding: 1.0625rem 2.5rem;
     width: 45%;
     text-align: center;
   }
-  .pricing__premium__precio {
+  .pricing__button__premium__precio {
     margin: 0 auto;
   }
-  .pricing__premium__precio__dollar {
+  .pricing__button__premium__precio__dollar {
     margin-top: 0.9375rem;
     transform: translate(0%, 0%);
     text-align: center;
     margin-bottom: 0.3125rem;
   }
-  .pricing__premium__precio__offer {
+  .pricing__button__premium__precio__offer {
     margin-top: 0rem;
     transform: translate(0%, 0%);
     text-align: center;
     margin-bottom: 3.125rem;
   }
-  .pricing__premium__check {
+  .pricing__button__premium__check {
     margin: 0 auto;
     text-align: center;
   }
-  .pricing__premium__check li {
+  .pricing__button__premium__check li {
     transform: translate(0%, 0%);
   }
-  .pricing__premium__buttom {
+  .pricing__button__premium__buttom {
     transform: translate(65%, 120%);
     padding: 1.0625rem 2.5rem;
     width: 45%;
