@@ -1,0 +1,43 @@
+.slider{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    overflow: hidden;
+
+    &--sliderbutton{
+        width:10%;
+    }
+
+    &__izquierda{
+        @extend .slider--sliderbutton;
+    }
+    &__izquierda img{
+        width: 100%;
+    }
+
+    &__derecha{
+        @extend .slider--sliderbutton;
+    }
+    &__derecha img{
+        width: 100%;
+    }
+
+    &__img{
+        align-items: center;
+        width: 80%;
+    }
+    &__img img{
+        aspect-ratio: 16 / 9;
+        width: 100%;
+    }
+
+}
+
+@media (min-width:1000px){
+    .slider{
+        margin-top: 4rem;
+        &__img img{
+            aspect-ratio: 12/5;
+        }
+    }
+}
