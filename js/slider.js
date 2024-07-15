@@ -20,11 +20,11 @@ function moverDerecha(){
     }
     document.Imagen.src = imagenes[contador];
 }
-var intervalo = setInterval(moverDerecha,2000);
+var intervalo = setInterval(moverDerecha,5000);
 sliderDerecha.addEventListener("click", function(){
     clearInterval(intervalo);
     moverDerecha();
-    intervalo = setInterval(moverDerecha, 2000);
+    intervalo = setInterval(moverDerecha, 5000);
 });
 
 
@@ -39,5 +39,5 @@ function moverIzquierda(){
 sliderIzquierda.addEventListener("click", function(){
     clearInterval(intervalo);
     moverIzquierda();
-    intervalo = setInterval(moverDerecha, 2000);
+    intervalo = setInterval(moverDerecha, 5000);
 });
