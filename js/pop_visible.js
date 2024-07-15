@@ -29,16 +29,17 @@ document.addEventListener("DOMContentLoaded", function() {
     })
     
     //Cerrar modal
-    popclose.addEventListener ("onclick", function() {
+    popclose.addEventListener ("click", function() {
         closeModalFunction();
     })
 
     //Cerrar modal click fuera
-    window.addEventListener ("onclick", function(event) {
-        if (event.target === modal) {
+
+    window.addEventListener("click", function(event) {
+        if (!modal.contains(event.target) && event.target !== modal) {
             closeModalFunction();
         }
-    })
+    });
 
     //Cerrar modal con ESC
     document.addEventListener("keydown", function(event){
