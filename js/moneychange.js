@@ -1,73 +1,41 @@
-const moneysymbols = {
-    eur: "€",
-    usd: "$",
-    gbp: "£"
+const currencyRates = {};
+const currencySymbols = {
+    eur: '€',
+    usd: '$',
+    gbp: '£'
 };
 
-const currencybuttons = document.querySelectorAll('moneybutton');
+function getExchangeRates(){
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json", false);
+    xhr.send(null);
 
-function fetchexchange(baseCurrency){
-    const apichange = `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json`;
-
-    try {
-        const reponse = fetch(apichange);
-        if (!reponse.ok){
-            throw new error("Exchanges rates failed");
-        }
-        const data = reponse.json();
-        return data.eur;
-    } catch (error) {
-        console.error("Exchanges rates failed", error.message);
-        return null;
+    if (xhr.status === 200) {
+        const data = JSON.parse(xhr.responseText);
+        currencyRates.eur = data.eur;
     }
-};
-
-
-function handlechangeselector(event) {
-    const baseCurrency = event.target.value;
-
-    try {
-        const exchangeRates = fetchexchange();
-        if (exchangeRates) {
-            updateprices(exchangeRates, baseCurrency);
-        }
-    } catch (error) {
-        console.error("Error", error);
-    }
-
 }
 
+function updatePrices(currency){
+    const pricesInEUR = {
+        product1: 0,
+        product2: 25,
+        product3: 60
+    };
 
+    const rate = currencyRates.eur[currency];
+    const symbol = currencySymbols[currency];
 
-// currencybuttons.forEach((button) => { 
-//     button.addEventListener("click", handlechangeselector);
-// })
-
-document.addEventListener('DOMContentLoaded', function() {
-    var currencybuttons = document.querySelectorAll('moneybutton');
-    currencybuttons.forEach((button) => { 
-        button.addEventListener("click", handlechangeselector);
-    });
-});
-
-
-function updateprices(exchangeRates, baseCurrency) {
-    const prices = document.getElementById("priceobject");
-
-    const pricesEur = [0, 25, 60];
-
-    prices.forEach((element, index) => {
-        let newprice;
-        if (baseCurrency === "eur"){
-            newprice = pricesEur[index];
-        } else if (baseCurrency === "usd") {
-            newPrice = (pricesEur[index] * exchangeRates.usd).toFixed(2);
-        } else if (baseCurrency === "gbp") {
-            newPrice = (pricesEur[index] * exchangeRates.gbp).toFixed(2);
-        }  
-        element.textContent = `${currencySymbols[baseCurrency]} ${newPrice}`;
-    });
+    if (rate) {
+        document.getElementById('price1').innerText = symbol + Math.round(pricesInEUR.product1 * rate);
+        document.getElementById('price2').innerText = symbol + Math.round(pricesInEUR.product2 * rate);
+        document.getElementById('price3').innerText = symbol + Math.round(pricesInEUR.product3 * rate);
+    } else {
+        document.getElementById('price1').innerText = '€' + pricesInEUR.product1;
+        document.getElementById('price2').innerText = '€' + pricesInEUR.product2;
+        document.getElementById('price3').innerText = '€' + pricesInEUR.product3;
+    }
 }
 
-
-
+//Obtener tipos de cambio cuando se carga la pagina
+window.onload = getExchangeRates;
