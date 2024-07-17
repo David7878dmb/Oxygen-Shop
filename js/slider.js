@@ -1,4 +1,4 @@
-var imagenes = ["style/slider/gato.jpg",
+let imagenes = ["style/slider/gato.jpg",
     "style/slider/gato1.jpg",
     "style/slider/gato2.jpg",
     "style/slider/gato3.jpg",
@@ -8,9 +8,9 @@ var imagenes = ["style/slider/gato.jpg",
 
 document.Imagen.src = imagenes[0];
 
-var contador = 0;
-var sliderDerecha =  document.getElementById("slider--derecho");
-var sliderIzquierda = document.getElementById("slider--izquierdo");
+let contador = 0;
+let sliderDerecha =  document.getElementById("slider--derecho");
+let sliderIzquierda = document.getElementById("slider--izquierdo");
 
 
 function moverDerecha(){
@@ -20,7 +20,7 @@ function moverDerecha(){
     }
     document.Imagen.src = imagenes[contador];
 }
-var intervalo = setInterval(moverDerecha,5000);
+let intervalo = setInterval(moverDerecha,5000);
 sliderDerecha.addEventListener("click", function(){
     clearInterval(intervalo);
     moverDerecha();

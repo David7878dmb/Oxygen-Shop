@@ -5,6 +5,8 @@ const currencySymbols = {
     gbp: '£'
 };
 
+
+//Llama a la api
 function getExchangeRates(){
     const xhr = new XMLHttpRequest();
     xhr.open("GET", "https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json", false);
@@ -16,6 +18,7 @@ function getExchangeRates(){
     }
 }
 
+//Objeto con los diferentes precios
 function updatePrices(currency){
     const pricesInEUR = {
         product1: 0,
@@ -25,7 +28,7 @@ function updatePrices(currency){
 
     const rate = currencyRates.eur[currency];
     const symbol = currencySymbols[currency];
-
+//Cambio de precios
     if (rate) {
         document.getElementById('price1').innerText = symbol + Math.round(pricesInEUR.product1 * rate);
         document.getElementById('price2').innerText = symbol + Math.round(pricesInEUR.product2 * rate);
