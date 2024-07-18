@@ -1,7 +1,7 @@
-document.addEventListener("DOMContentLoaded", function() {
+
     const modal = document.getElementById("pop");
     const popclose = document.getElementById("popclose");
-    const form = document.getElementById("popform");
+    const formpop = document.getElementById("popform");
 
 
     //Mostrar modal
@@ -48,6 +48,3 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     })
 
-    
-
-})

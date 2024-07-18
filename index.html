@@ -146,15 +146,15 @@
             <p class="pricing__tittle">Pricing</p>
 
             <div class="pricing__button" id="pricingbutton">
-                <button class="pricing__button__money"  id="moneybutton" value="eur" onclick="updatePrices('eur')">EUR</button>
-                <button class="pricing__button__money" id="moneybutton" value="usd" onclick="updatePrices('usd')">USD</button>
-                <button class="pricing__button__money" id="moneybutton" value="gbp" onclick="updatePrices('gbp')">GBP</button>
+                <button class="pricing__button__money"  id="eur" value="eur">EUR</button>
+                <button class="pricing__button__money" id="usd" value="usd">USD</button>
+                <button class="pricing__button__money" id="gbp" value="gbp">GBP</button>
             </div>
             
             <div class="pricing__basic">
                 <div class="pricing__basic__precio">
                     <h3> Basic </h3>
-                    <p id="price1"> $0 </p>
+                    <p id="price" class="price"> $0 </p>
                 </div>
                 <ul class="pricing__basic__check">
                     <li><img class="__img" src="./style/pricing/check.png"/>100 MB HDD</li>
@@ -169,7 +169,7 @@
             <div class="pricing__pro">
                 <div class="pricing__pro__precio">
                     <h3>Professional</h3>
-                    <p class="pricing__pro__precio__dollar" id="price2">$25</p>
+                    <p class="pricing__pro__precio__dollar price" id="price">$25</p>
                     <p class="pricing__pro__precio__offer">Limited offer</p>
                 </div>
                 <ul class="pricing__pro__check">
@@ -185,7 +185,7 @@
             <div class="pricing__premium">
                 <div class="pricing__premium__precio">
                     <h3>Premium</h3>
-                    <p class="pricing__premium__precio__dollar" id="price3">$60</p>
+                    <p class="pricing__premium__precio__dollar price" id="price">$60</p>
                     <p class="pricing__premium__precio__offer">Limited offer</p>
                 </div>
                 <ul class="pricing__premium__check">
@@ -205,7 +205,7 @@
                 <img src="./style/slider/izquierda.png"/>
             </div>
 
-            <div class="slider__img">
+            <div class="slider__img" id="slider--img">
                 <img name="Imagen"/>
             </div>
 
