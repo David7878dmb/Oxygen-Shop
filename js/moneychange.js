@@ -7,7 +7,7 @@ const currencySymbols = {
 const currencyButtons = document.querySelectorAll(".pricing__button__money");
 
 //datos api
-function fetchExchangeRates(baseCurrency) {
+function fetchExchangeRates() {
     const apiEndpoint = `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/eur.json`;
 
     return fetch(apiEndpoint)

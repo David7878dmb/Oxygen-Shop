@@ -1305,6 +1305,7 @@
 
 @media (min-width: 1000px) {
   .pop {
+    margin-left: 30%;
     width: 40%;
     height: 20rem;
   }
